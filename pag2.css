@@ -195,13 +195,13 @@ p {
   
  
   .circle-p1{
-    background-image: url(/IMG/pagina2/section2/img2\ 278x724.png);
+    background-color: #585858;
     background-size: cover;
     background-repeat: no-repeat;
   }
 
   .circle-p2{
-    background-image: url(/IMG/pagina2/section2/quartocard.png);
+    background-color: #000;
     background-size:cover;
     background-repeat:no-repeat;
   }
