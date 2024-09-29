@@ -33,6 +33,10 @@ nav a{
 
 }
 
+  .navbar-brand{
+    text-shadow: 0px 5px 7px rgba(0, 0, 0, 0.7);
+
+  }
 
 
 
@@ -313,23 +317,46 @@ nav a{
 
 
 .cards-section {
-  background-color: #f8f9fa; /* Cor de fundo da seção */
+  background-color: #0072e4; /* Cor de fundo da seção */
+  min-height: 60vh;
+  overflow: hidden; /* Garante que o conteúdo não exceda */
+  padding-bottom: 20px; /* Adiciona um espaçamento ao final */
 }
 
+.cards-section .container{
+  height: 100%;
+  width: 100%;
+}
+
+.cards-section .container .row{
+  display: flex;
+  flex-wrap: wrap;
+
+}
 .card {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave para os cards */
   position: relative;
-  overflow: hidden; /* Garante que o conteúdo não ultrapasse os limites do card */
+  overflow: hidden;
+  height: auto; /* Remove qualquer altura fixa */
+  min-height: 200px; /* Define uma altura mínima razoável */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden;
+  min-height: 300px; /* Define uma altura mínima */
+  height: auto; /* Permite que a altura seja ajustada automaticamente */
+}
+.container-col{
+  height: 40vh;
+
 }
 
 .card-body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  text-align: center; /* Centraliza o texto */
-  opacity: 1;
+  text-align: center;
   position: relative;
   z-index: 1;
+  padding: 20px;
 }
 
 .card-body::before {
@@ -339,38 +366,37 @@ nav a{
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('/IMG/pagina1/SECTION4/meta.png');
+  background-image: url('IMG/pagina1/SECTION4/meta.png');
   background-size: 50%;
   background-position: center;
   background-repeat: no-repeat;
-  opacity: 1.0; /* Transparência da imagem de fundo inicialmente visível */
-  transition: opacity 0.5s ease; /* Suaviza a transição da opacidade */
-  z-index: -1; /* Coloca a imagem de fundo atrás do conteúdo */
+  opacity: 1.0;
+  transition: opacity 0.5s ease;
+  z-index: -1;
 }
 
 .card-body:hover::before {
-  opacity: 0; /* Faz o background sumir ao passar o mouse */
+  opacity: 0;
 }
 
 .card-title,
 .card-text {
-  opacity: 0; /* Inicialmente invisíveis */
-  transition: opacity 0.5s ease; /* Transição suave para a opacidade */
+  opacity: 0;
+  transition: opacity 0.5s ease;
 }
 
 .card-body:hover .card-title,
 .card-body:hover .card-text {
-  opacity: 1; /* Faz o texto aparecer ao passar o mouse */
+  opacity: 1;
 }
 
 .card-title {
-  font-size: 1.5rem; /* Tamanho do título */
+  font-size: 1.5rem;
 }
 
 .card-text {
-  font-size: 1rem; /* Tamanho do parágrafo */
+  font-size: 1rem;
 }
-
 
 
 
@@ -397,7 +423,7 @@ nav a{
 }
 
 #container-pag5 .row {
-background-image: url(/IMG/pagina1/SECTION5/backgorund-card.gif);
+background-image: url(/IMG/pagina1/SECTION5/giffoto.PNG);
 background-size: cover;
 background-repeat: no-repeat;
 
@@ -426,7 +452,7 @@ justify-content: center;
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('/IMG/pagina1/SECTION5/backgorund-card.gif'); /* Caminho para o GIF de fundo */
+  background-image: url('/IMG/pagina1/SECTION5/giffoto.PNG'); /* Caminho para o GIF de fundo */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -724,6 +750,21 @@ margin-bottom: 6px;
   .section-3 {
     min-height: 300vh; /* Aumenta a altura para evitar sobreposição ou compressão */
   }
+ .cards-section{
+  min-height: 200vh;
+ }
+  .col-md-4 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .card {
+    min-height: auto; /* Ajusta a altura conforme o conteúdo */
+  }
+
+
+
 }
 
 
