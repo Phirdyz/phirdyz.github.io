@@ -309,7 +309,7 @@ nav a{
 }
 
 .cont-circle2{
-  background-color: blue;
+  background-color: #e28800;
   position: relative;
 }
 
@@ -317,7 +317,7 @@ nav a{
 
 
 .cards-section {
-  background-color: #0072e4; /* Cor de fundo da seção */
+  background-color: #e28800; /* Cor de fundo da seção */
   min-height: 60vh;
   overflow: hidden; /* Garante que o conteúdo não exceda */
   padding-bottom: 20px; /* Adiciona um espaçamento ao final */
