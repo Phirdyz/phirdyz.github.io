@@ -1,0 +1,3902 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    background-color: #fff1ff;
+    overflow-x: hidden;
+  }
+  
+  nav{
+    background-image: url(/IMG/HEADER/headerbackground.png);
+    background-repeat: no-repeat;
+    position: fixed;
+    z-index: 999;
+ 
+}
+
+
+.navbarNav{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+  height: 80px;
+  position: fixed;
+}
+
+
+
+.navbar-collapse {
+    background-image: none !important;
+    margin-top: 50px; /* Adjust this value to your desired margin */
+ 
+  }
+
+  nav a{
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+
+  }
+
+  
+
+  .pag1{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(/IMG/pagina3/section1/backgroundS1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+  }
+  .pag1 h1 {
+    display: block; /* Alterado para block para que fique acima do span */
+    margin-bottom: 10px; /* Espaçamento entre o h1 e o span */
+    position: relative; /* Para posicionar o span em relação ao h1 */
+    font-size: 70px;
+    font-family: "cinzel";
+}
+
+.pag1 h1::after {
+    content: "";
+    position: absolute;
+    bottom: 35px;
+    left: 0;
+    width: 100%;
+    height: 5px; /* Espessura da linha */
+    background-color: #ecb11f; /* Cor da linha */
+    z-index: 1; /* Para colocar a linha atrás do texto */
+}
+
+.pag1 h1 span {
+    display: block; /* Faz o span se comportar como um bloco */
+    margin-top: 15px; /* Espaçamento entre o h1 e o span */
+    font-size: 25px;
+    font-family: "DM Serif Display",sans-serif;
+}
+
+.pag2{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+
+  
+}
+
+.container-left{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.container-right{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-de-texto{
+
+  display: flex;
+  flex-direction: column; /* Direção de coluna para alinhar os itens verticalmente */
+  width: 80%;
+  height: 70%;
+  border-left: 80px solid #ecb11f;
+  justify-content: center; /* Centraliza verticalmente os itens */
+  align-items: flex-start; /* Alinha os itens à esquerda */
+  padding-left: 20px;
+}
+
+
+.container-de-texto h1 {
+  margin: 10px 0; /* Espaçamento entre os elementos */
+  margin-bottom: 40px;
+  font-family: "cinzel";
+}
+
+.container-de-texto h1 span {
+  display: block; /* Faz o span se comportar como um bloco */
+  margin-top: 20px;
+  font-family: "Dm Serif Display"sans-serif;
+}
+
+.formulary-email{
+  width: 70%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(to right, #09b595 0%, #01877e 50%, #09b595 100%);
+
+}
+.formulary-email form{
+  width: 80%;
+}
+
+
+
+.formulary-email h1 {
+  text-align: center;
+  color: #000000;
+  margin-bottom: 30px;
+  font-family: "cinzel",sans-serif;
+}
+
+.form-group {
+  margin-bottom: 30px;
+  font-family: "cinzel"sans-serif;
+}
+
+.form-group textarea{
+  height: 300x;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+
+.pag3{
+  width: 100%;
+  height: 90vh;
+  background: linear-gradient(to bottom, #09b595 20%, #016d66 100% );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: rgb(0, 0, 0);
+}
+.pag3 h1{
+  font-family: "Dm Serif Display",sans-serif;
+  color: white;
+  font-weight: bold;
+
+}
+.mapa-container{
+  background-color: #ecb11f;
+  width: 80%;
+  height: 85%;
+  margin-bottom: 20px;
+  
+}
+ 
+
+footer{
+  background-image: url(/IMG/FOOTER/footer.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  font-size: small;
+  font-family: "DM Serif Display",sans-serif;
+ }
+.image-footer{
+  display: flex;
+  justify-content: center;
+ 
+}
+
+
+ .image-footer img {
+  max-width: 30px; /* Definindo uma largura máxima para as imagens */
+  height: auto; /* Mantém a proporção da imagem */
+  margin-right: 20px; /* Espaçamento entre as imagens */
+}
+@media screen and (max-width:300px) {
+
+  .facet_sidebar {
+    display: none;
+  }
+  .pag1 h1{ /* diferenca de 10 da pag anterior */
+    font-size: 13px;
+ }
+
+ .pag1 h1 span{
+    font-size: 7px;
+ }
+ .navigation ul li a {
+    font-size: 13px;
+}
+ h1{ /*diferenca de 2 a 3 e da pagina anterior de 6*/ 
+    font-size: 15px;
+ }
+ a{
+    font-size: 10px;
+    
+ }
+ 
+ header {
+    height: 20px;
+}
+
+.navigation ul li {
+    margin: 0 5px;
+   
+}
+
+.pag1{
+height: 80vw;
+}
+
+.pag1 h1::after {
+  content: "";
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  width: 100%;
+  height: 1px; /* Espessura da linha */
+  background-color: #ecb11f; /* Cor da linha */
+  z-index: 1; /* Para colocar a linha atrás do texto */
+}
+
+.pag2{
+  height: 350vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-left{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+
+.container-right{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.container-de-texto{
+
+  display: flex;
+  flex-direction: column; 
+  height: 70%;
+  width: 70%;
+  border-left: 10px solid #ecb11f;
+  justify-content: center; /* Centraliza verticalmente os itens */
+  align-items: flex-start; /* Alinha os itens à esquerda */
+  padding-left: 20px;
+  
+}
+
+
+.container-de-texto h1 {
+  margin: 10px 0; 
+  margin-bottom: 20px;
+  font-family: "cinzel";
+  width: 90%;
+}
+
+.container-de-texto h1 span {
+  display: block; 
+  margin-top: 5px;
+  font-family: "Dm Serif Display"sans-serif;
+  width: 90%;
+}
+
+
+.formulary-email{
+  width: 80%;
+  height: 70%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(to right, #09b595 00%, #01877e 40%,#01877e 60%, #09b595 100%);
+
+}
+.formulary-email form{
+  width: 95%;
+}
+
+.formulary-email h1 {
+  text-align: center;
+  color: rgb(41, 41, 41);
+  margin-bottom: 10px;
+  font-family: "cinzel",sans-serif;
+  
+}
+
+.form-group {
+  margin-bottom: 3px;
+  font-family: "cinzel"sans-serif;
+}
+
+.form-group textarea{
+  height: 30px;
+  
+}
+
+label {
+  display: block;
+  margin-bottom: 3px;
+  font-size: 13px;
+  color: rgb(41, 41, 41);
+
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid  rgb(41, 41, 41);;
+  border-radius: 4px;
+  height: 13px;
+}
+
+
+input[type="submit"] {
+
+  position: relative;
+  left: 5%;
+  top: 1%;
+  width: 90%;
+  padding: 15px;
+  background-color: rgb(41, 41, 41);
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: rgb(49, 61, 56);
+}
+
+.pag3{
+  height: 100vw;
+}
+
+.mapa-container{
+  background-color: #ecb11f;
+  width: 80vw;
+  height: 60vw;
+  margin-bottom: 20px;
+  
+}
+footer {
+  width: 100%; 
+  height: 65vw;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-family: "DM Serif Display",sans-serif;
+text-align: center;
+}
+
+
+
+.image-footer{
+display: flex;
+justify-content: center;
+
+}
+
+
+.image-footer img {
+max-width: 18px; 
+height: auto; 
+margin-right: 20px; 
+}
+}
+@media screen and (max-width:300px) and (orientation:landscape){
+
+  .facet_sidebar {
+    display: none;
+  }
+  .pag1 h1{ /* diferenca de 10 da pag anterior */
+    font-size: 13px;
+ }
+
+ .pag1 h1 span{
+    font-size: 7px;
+ }
+ .navigation ul li a {
+    font-size: 13px;
+}
+ h1{ /*diferenca de 2 a 3 e da pagina anterior de 6*/ 
+    font-size: 15px;
+ }
+ a{
+    font-size: 10px;
+    
+ }
+ 
+ header {
+    height: 20px;
+}
+
+.navigation ul li {
+    margin: 0 5px;
+   
+}
+
+.pag1{
+height: 80vw;
+}
+
+.pag1 h1::after {
+  content: "";
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  width: 100%;
+  height: 1px; /* Espessura da linha */
+  background-color: #ecb11f; /* Cor da linha */
+  z-index: 1; /* Para colocar a linha atrás do texto */
+}
+
+.pag2{
+  height: 350vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-left{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+
+.container-right{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.container-de-texto{
+
+  display: flex;
+  flex-direction: column; 
+  height: 70%;
+  width: 70%;
+  border-left: 10px solid #ecb11f;
+  justify-content: center; /* Centraliza verticalmente os itens */
+  align-items: flex-start; /* Alinha os itens à esquerda */
+  padding-left: 20px;
+  
+}
+
+
+.container-de-texto h1 {
+  margin: 10px 0; 
+  margin-bottom: 20px;
+  font-family: "cinzel";
+  width: 90%;
+}
+
+.container-de-texto h1 span {
+  display: block; 
+  margin-top: 5px;
+  font-family: "Dm Serif Display"sans-serif;
+  width: 90%;
+}
+
+
+.formulary-email{
+  width: 80%;
+  height: 70%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(to right, #09b595 00%, #01877e 40%,#01877e 60%, #09b595 100%);
+
+}
+.formulary-email form{
+  width: 95%;
+}
+
+.formulary-email h1 {
+  text-align: center;
+  color: rgb(41, 41, 41);
+  margin-bottom: 10px;
+  font-family: "cinzel",sans-serif;
+  
+}
+
+.form-group {
+  margin-bottom: 3px;
+  font-family: "cinzel"sans-serif;
+}
+
+.form-group textarea{
+  height: 30px;
+  
+}
+
+label {
+  display: block;
+  margin-bottom: 3px;
+  font-size: 13px;
+  color: rgb(41, 41, 41);
+
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid  rgb(41, 41, 41);;
+  border-radius: 4px;
+  height: 13px;
+}
+
+
+input[type="submit"] {
+
+  position: relative;
+  left: 5%;
+  top: 1%;
+  width: 90%;
+  padding: 15px;
+  background-color: rgb(41, 41, 41);
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: rgb(49, 61, 56);
+}
+
+.pag3{
+  height: 100vw;
+}
+
+.mapa-container{
+  background-color: #ecb11f;
+  width: 80vw;
+  height: 60vw;
+  margin-bottom: 20px;
+  
+}
+footer {
+  width: 100%; 
+  height: 65vw;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-family: "DM Serif Display",sans-serif;
+text-align: center;
+}
+
+
+
+.image-footer{
+display: flex;
+justify-content: center;
+
+}
+
+
+.image-footer img {
+max-width: 18px; 
+height: auto; 
+margin-right: 20px; 
+}
+}
+
+@media screen and (min-width: 301px) and (max-width: 480px) {
+
+  .facet_sidebar {
+    display: none;
+  }
+  .pag1 h1{ /* diferenca de 10 da pag anterior */
+     font-size: 20px;
+  }
+
+  .pag1 h1 span{
+     font-size: 10px;
+  }
+  .navigation ul li a {
+     font-size: 14px;
+ }
+  h1{ /*diferenca de 2 a 3 e da pagina anterior de 6*/ 
+     font-size: 20px;
+  }
+  a{
+     font-size: 15px;
+  }
+  
+  header {
+     height: 40px;
+     
+ }
+
+
+
+.navigation ul li {
+  margin: 0 20px;
+}
+
+.pag1{
+height: 80vw;
+}
+
+.pag1 h1::after {
+  content: "";
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  width: 100%;
+  height: 1px; /* Espessura da linha */
+  background-color: #ecb11f; /* Cor da linha */
+  z-index: 1; /* Para colocar a linha atrás do texto */
+}
+
+.pag2{
+  height: 250vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-left{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+
+.container-right{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.container-de-texto{
+
+  display: flex;
+  flex-direction: column; 
+  height: 100%;
+  width: 70%;
+  border-left: 10px solid #ecb11f;
+  justify-content: center; /* Centraliza verticalmente os itens */
+  align-items: flex-start; /* Alinha os itens à esquerda */
+  padding-left: 20px;
+  
+}
+
+
+.container-de-texto h1 {
+  margin: 10px 0; 
+  margin-bottom: 20px;
+  font-family: "cinzel";
+  width: 90%;
+}
+
+.container-de-texto h1 span {
+  display: block; 
+  margin-top: 5px;
+  font-family: "Dm Serif Display"sans-serif;
+  width: 90%;
+}
+
+
+.formulary-email{
+  width: 65%;
+  height: 70%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(to right, #09b595 00%, #01877e 40%,#01877e 60%, #09b595 100%);
+
+}
+.formulary-email form{
+  width: 95%;
+}
+
+.formulary-email h1 {
+  text-align: center;
+  color: rgb(41, 41, 41);
+  margin-bottom: 10px;
+  font-family: "cinzel",sans-serif;
+  
+}
+
+.form-group {
+  margin-bottom: 3px;
+  font-family: "cinzel"sans-serif;
+}
+
+.form-group textarea{
+  height: 30px;
+  
+}
+
+label {
+  display: block;
+  margin-bottom: 3px;
+  font-size: 13px;
+  color: rgb(41, 41, 41);
+
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid  rgb(41, 41, 41);;
+  border-radius: 4px;
+  height: 13px;
+}
+
+
+input[type="submit"] {
+
+  position: relative;
+  left: 5%;
+  top: 1%;
+  width: 90%;
+  padding: 15px;
+  background-color: rgb(41, 41, 41);
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: rgb(49, 61, 56);
+}
+
+.pag3{
+  height: 100vw;
+}
+
+.mapa-container{
+  background-color: #ecb11f;
+  width: 80vw;
+  height: 60vw;
+  margin-bottom: 20px;
+  
+}
+footer {
+  width: 100%; 
+  height: 59vw;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-family: "DM Serif Display",sans-serif;
+text-align: center;
+}
+
+
+
+.image-footer{
+display: flex;
+justify-content: center;
+
+}
+
+
+.image-footer img {
+max-width: 24px; 
+height: auto; 
+margin-right: 20px; 
+}
+} /* pronto */
+@media screen and (min-width: 301px) and (max-width: 480px) and (orientation:landscape){
+
+  .facet_sidebar {
+    display: none;
+  }
+  .pag1 h1{ /* diferenca de 10 da pag anterior */
+     font-size: 20px;
+  }
+
+  .pag1 h1 span{
+     font-size: 10px;
+  }
+  .navigation ul li a {
+     font-size: 14px;
+ }
+  h1{ /*diferenca de 2 a 3 e da pagina anterior de 6*/ 
+     font-size: 20px;
+  }
+  a{
+     font-size: 15px;
+  }
+  
+  header {
+     height: 40px;
+     
+ }
+
+
+
+.navigation ul li {
+  margin: 0 20px;
+}
+
+.pag1{
+height: 80vw;
+}
+
+.pag1 h1::after {
+  content: "";
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  width: 100%;
+  height: 1px; /* Espessura da linha */
+  background-color: #ecb11f; /* Cor da linha */
+  z-index: 1; /* Para colocar a linha atrás do texto */
+}
+
+.pag2{
+  height: 250vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-left{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+
+.container-right{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.container-de-texto{
+
+  display: flex;
+  flex-direction: column; 
+  height: 100%;
+  width: 70%;
+  border-left: 10px solid #ecb11f;
+  justify-content: center; /* Centraliza verticalmente os itens */
+  align-items: flex-start; /* Alinha os itens à esquerda */
+  padding-left: 20px;
+  
+}
+
+
+.container-de-texto h1 {
+  margin: 10px 0; 
+  margin-bottom: 20px;
+  font-family: "cinzel";
+  width: 90%;
+}
+
+.container-de-texto h1 span {
+  display: block; 
+  margin-top: 5px;
+  font-family: "Dm Serif Display"sans-serif;
+  width: 90%;
+}
+
+
+.formulary-email{
+  width: 80%;
+  height: 70%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(to right, #09b595 00%, #01877e 40%,#01877e 60%, #09b595 100%);
+
+}
+.formulary-email form{
+  width: 95%;
+}
+
+.formulary-email h1 {
+  text-align: center;
+  color: rgb(41, 41, 41);
+  margin-bottom: 10px;
+  font-family: "cinzel",sans-serif;
+  
+}
+
+.form-group {
+  margin-bottom: 3px;
+  font-family: "cinzel"sans-serif;
+}
+
+.form-group textarea{
+  height: 30px;
+  
+}
+
+label {
+  display: block;
+  margin-bottom: 3px;
+  font-size: 13px;
+  color: rgb(41, 41, 41);
+
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid  rgb(41, 41, 41);;
+  border-radius: 4px;
+  height: 13px;
+}
+
+
+input[type="submit"] {
+
+  position: relative;
+  left: 5%;
+  top: 1%;
+  width: 90%;
+  padding: 15px;
+  background-color: rgb(41, 41, 41);
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: rgb(49, 61, 56);
+}
+
+.pag3{
+  height: 100vw;
+}
+
+.mapa-container{
+  background-color: #ecb11f;
+  width: 80vw;
+  height: 60vw;
+  margin-bottom: 20px;
+  
+}
+footer {
+  width: 100%; 
+  height: 59vw;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-family: "DM Serif Display",sans-serif;
+text-align: center;
+}
+
+
+
+.image-footer{
+display: flex;
+justify-content: center;
+
+}
+
+
+.image-footer img {
+max-width: 24px; 
+height: auto; 
+margin-right: 20px; 
+}
+} /*pronto */
+
+
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+
+  .facet_sidebar {
+    display: none;
+  }
+  .pag1 h1{ /* diferenca de 10 da pag anterior */
+     font-size: 25px;
+  }
+
+  .pag1 h1 span{
+     font-size: 12px;
+  }
+  .navigation ul li a {
+     font-size: 16px;
+ }
+  h1{ /*diferenca de 2 a 3 e da pagina anterior de 6*/ 
+     font-size: 20px;
+  }
+  a{
+     font-size: 15px;
+  }
+  
+  header {
+     height: 40px;
+     
+ }
+
+
+.navigation ul li {
+  margin: 0 20px;
+}
+
+.pag1{
+height: 60vw;
+}
+
+.pag1 h1::after {
+  content: "";
+  position: absolute;
+  bottom: 25px;
+  left: 0;
+  width: 100%;
+  height: 2px; /* Espessura da linha */
+  background-color: #ecb11f; /* Cor da linha */
+  z-index: 1; /* Para colocar a linha atrás do texto */
+}
+
+.pag2{
+  height: 200vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-left{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+
+.container-right{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.container-de-texto{
+
+  display: flex;
+  flex-direction: column; 
+  height: 70%;
+  border-left: 40px solid #ecb11f;
+  justify-content: center; /* Centraliza verticalmente os itens */
+  align-items: flex-start; /* Alinha os itens à esquerda */
+  padding-left: 20px;
+  
+}
+
+
+.container-de-texto h1 {
+  margin: 10px 0; 
+  margin-bottom: 20px;
+  font-family: "cinzel";
+}
+
+.container-de-texto h1 span {
+  display: block; 
+  margin-top: 5px;
+  font-family: "Dm Serif Display"sans-serif;
+}
+
+
+.formulary-email{
+  width: 50%;
+  height: 65%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(to right, #09b595 00%, #01877e 40%,#01877e 60%, #09b595 100%);
+
+}
+.formulary-email form{
+  width: 90%;
+}
+
+.formulary-email h1 {
+  text-align: center;
+  color: rgb(41, 41, 41);
+  margin-bottom: 10px;
+  font-family: "cinzel",sans-serif;
+  
+}
+
+.form-group {
+  margin-bottom: 5px;
+  font-family: "cinzel"sans-serif;
+}
+
+.form-group textarea{
+  height: 39px;
+  
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 15px;
+  color: rgb(41, 41, 41);
+
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid  rgb(41, 41, 41);;
+  border-radius: 4px;
+  height: 15px;
+}
+
+
+input[type="submit"] {
+
+  position: relative;
+  left: 5%;
+  top: 3%;
+  width: 90%;
+  padding: 15px;
+  background-color: rgb(41, 41, 41);
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: rgb(49, 61, 56);
+}
+
+.pag3{
+  height: 100vw;
+}
+
+.mapa-container{
+  background-color: #ecb11f;
+  width: 80vw;
+  height: 60vw;
+  margin-bottom: 20px;
+  
+}
+footer {
+  width: 100%; 
+  height: 35vw;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-family: "DM Serif Display",sans-serif;
+text-align: center;
+}
+
+
+
+.image-footer{
+display: flex;
+justify-content: center;
+
+}
+
+
+.image-footer img {
+max-width: 25px; 
+height: auto; 
+margin-right: 20px; 
+}
+} /*pronto */
+@media screen and (min-width: 481px) and (max-width: 768px) and (orientation:landscape){
+
+  .facet_sidebar {
+    display: none;
+  }
+  .pag1 h1{ /* diferenca de 10 da pag anterior */
+     font-size: 25px;
+  }
+
+  .pag1 h1 span{
+     font-size: 12px;
+  }
+  .navigation ul li a {
+     font-size: 16px;
+ }
+  h1{ /*diferenca de 2 a 3 e da pagina anterior de 6*/ 
+     font-size: 20px;
+  }
+  a{
+     font-size: 15px;
+  }
+  
+  header {
+     height: 40px;
+     
+ }
+
+
+.navigation ul li {
+  margin: 0 20px;
+}
+
+.pag1{
+height: 60vw;
+}
+
+.pag1 h1::after {
+  content: "";
+  position: absolute;
+  bottom: 25px;
+  left: 0;
+  width: 100%;
+  height: 2px; /* Espessura da linha */
+  background-color: #ecb11f; /* Cor da linha */
+  z-index: 1; /* Para colocar a linha atrás do texto */
+}
+
+.pag2{
+  height: 200vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-left{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+
+.container-right{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.container-de-texto{
+
+  display: flex;
+  flex-direction: column; 
+  height: 70%;
+  border-left: 40px solid #ecb11f;
+  justify-content: center; /* Centraliza verticalmente os itens */
+  align-items: flex-start; /* Alinha os itens à esquerda */
+  padding-left: 20px;
+  
+}
+
+
+.container-de-texto h1 {
+  margin: 10px 0; 
+  margin-bottom: 20px;
+  font-family: "cinzel";
+}
+
+.container-de-texto h1 span {
+  display: block; 
+  margin-top: 5px;
+  font-family: "Dm Serif Display"sans-serif;
+}
+
+
+.formulary-email{
+  width: 60%;
+  height: 65%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(to right, #09b595 00%, #01877e 40%,#01877e 60%, #09b595 100%);
+
+}
+.formulary-email form{
+  width: 90%;
+}
+
+.formulary-email h1 {
+  text-align: center;
+  color: rgb(41, 41, 41);
+  margin-bottom: 10px;
+  font-family: "cinzel",sans-serif;
+  
+}
+
+.form-group {
+  margin-bottom: 5px;
+  font-family: "cinzel"sans-serif;
+}
+
+.form-group textarea{
+  height: 39px;
+  
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 15px;
+  color: rgb(41, 41, 41);
+
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid  rgb(41, 41, 41);;
+  border-radius: 4px;
+  height: 15px;
+}
+
+
+input[type="submit"] {
+
+  position: relative;
+  left: 5%;
+  top: 3%;
+  width: 90%;
+  padding: 15px;
+  background-color: rgb(41, 41, 41);
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: rgb(49, 61, 56);
+}
+
+.pag3{
+  height: 100vw;
+}
+
+.mapa-container{
+  background-color: #ecb11f;
+  width: 80vw;
+  height: 60vw;
+  margin-bottom: 20px;
+  
+}
+footer {
+  width: 100%; 
+  height: 35vw;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-family: "DM Serif Display",sans-serif;
+text-align: center;
+}
+
+
+
+.image-footer{
+display: flex;
+justify-content: center;
+
+}
+
+
+.image-footer img {
+max-width: 25px; 
+height: auto; 
+margin-right: 20px; 
+}
+} /*pronto */
+
+@media screen and (min-width: 769px) and (max-width:1024px) {
+
+  .facet_sidebar {
+    display: none;
+  }
+  .pag1 h1{ /* diferenca de 10 da pag anterior */
+     font-size: 50px;
+  }
+
+  .pag1 h1 span{
+     font-size: 20px;
+  }
+  .navigation ul li a {
+     font-size: 23px;
+ }
+  h1{ /*diferenca de 2 a 3 e da pagina anterior de 6*/ 
+     font-size: 30px;
+  }
+  a{
+     font-size: 20px;
+  }
+  
+  header {
+     height: 45px;
+     
+ }
+
+
+.navigation ul li {
+  margin: 0 35px;
+}
+
+.pag1{
+height: 60vw;
+}
+
+.pag2{
+  height: 200vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-left{
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.container-right{
+  width: 90%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.container-de-texto{
+
+  display: flex;
+  flex-direction: column; 
+  height: 70%;
+  
+}
+
+
+.container-de-texto h1 {
+  margin: 10px 0; 
+  margin-bottom: 40px;
+  font-family: "cinzel";
+}
+
+.container-de-texto h1 span {
+  display: block; 
+  margin-top: 20px;
+  font-family: "Dm Serif Display"sans-serif;
+}
+
+
+.formulary-email{
+  width: 60%;
+  height: 70%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(to right, #09b595 00%, #01877e 40%,#01877e 60%, #09b595 100%);
+
+}
+.formulary-email form{
+  width: 90%;
+}
+
+.formulary-email h1 {
+  text-align: center;
+  color: rgb(41, 41, 41);
+  margin-bottom: 30px;
+  font-family: "cinzel",sans-serif;
+  
+}
+
+.form-group {
+  margin-bottom: 30px;
+  font-family: "cinzel"sans-serif;
+}
+
+.form-group textarea{
+  height: 120px;
+  
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(41, 41, 41);
+
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid  rgb(41, 41, 41);;
+  border-radius: 4px;
+}
+
+
+input[type="submit"] {
+
+  position: relative;
+  left: 5%;
+  top: -2%;
+  width: 90%;
+  padding: 15px;
+  background-color: rgb(41, 41, 41);
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: rgb(49, 61, 56);
+}
+
+.pag3{
+  height: 100vw;
+}
+
+.mapa-container{
+  background-color: #ecb11f;
+  width: 80vw;
+  height: 60vw;
+  margin-bottom: 20px;
+  
+}
+footer {
+  width: 100%; 
+  height: 25vw;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-family: "DM Serif Display",sans-serif;
+text-align: center;
+}
+
+
+
+.image-footer{
+display: flex;
+justify-content: center;
+
+}
+
+
+.image-footer img {
+max-width: 40px; 
+height: auto; 
+margin-right: 20px; 
+}
+} /* pronto */
+@media screen and (min-width: 769px) and (max-width:1024px) and (orientation:landscape){
+
+  .facet_sidebar {
+    display: none;
+  }
+  .pag1 h1{ /* diferenca de 10 da pag anterior */
+     font-size: 50px;
+  }
+
+  .pag1 h1 span{
+     font-size: 20px;
+  }
+  .navigation ul li a {
+     font-size: 23px;
+ }
+  h1{ /*diferenca de 2 a 3 e da pagina anterior de 6*/ 
+     font-size: 30px;
+  }
+  a{
+     font-size: 20px;
+  }
+  
+  header {
+     height: 45px;
+     
+ }
+
+
+.navigation ul li {
+  margin: 0 35px;
+}
+
+.pag1{
+height: 60vw;
+}
+
+.pag2{
+  height: 200vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-left{
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.container-right{
+  width: 90%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.container-de-texto{
+
+  display: flex;
+  flex-direction: column; 
+  height: 70%;
+  
+}
+
+
+.container-de-texto h1 {
+  margin: 10px 0; 
+  margin-bottom: 40px;
+  font-family: "cinzel";
+}
+
+.container-de-texto h1 span {
+  display: block; 
+  margin-top: 20px;
+  font-family: "Dm Serif Display"sans-serif;
+}
+
+
+.formulary-email{
+  width: 60%;
+  height: 70%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(to right, #09b595 00%, #01877e 40%,#01877e 60%, #09b595 100%);
+
+}
+.formulary-email form{
+  width: 90%;
+}
+
+.formulary-email h1 {
+  text-align: center;
+  color: rgb(41, 41, 41);
+  margin-bottom: 30px;
+  font-family: "cinzel",sans-serif;
+  
+}
+
+.form-group {
+  margin-bottom: 30px;
+  font-family: "cinzel"sans-serif;
+}
+
+.form-group textarea{
+  height: 120px;
+  
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(41, 41, 41);
+
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid  rgb(41, 41, 41);;
+  border-radius: 4px;
+}
+
+
+input[type="submit"] {
+
+  position: relative;
+  left: 5%;
+  top: -2%;
+  width: 90%;
+  padding: 15px;
+  background-color: rgb(41, 41, 41);
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: rgb(49, 61, 56);
+}
+
+.pag3{
+  height: 100vw;
+}
+
+.mapa-container{
+  background-color: #ecb11f;
+  width: 80vw;
+  height: 60vw;
+  margin-bottom: 20px;
+  
+}
+footer {
+  width: 100%; 
+  height: 25vw;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-family: "DM Serif Display",sans-serif;
+text-align: center;
+}
+
+
+
+.image-footer{
+display: flex;
+justify-content: center;
+
+}
+
+
+.image-footer img {
+max-width: 40px; 
+height: auto; 
+margin-right: 20px; 
+}
+} /* pronto */
+ 
+@media screen and (min-width: 1025px) and (max-width: 1200px){
+
+  .facet_sidebar {
+    display: none;
+  }
+  .pag1 h1{ /* diferenca de 10 da pag anterior */
+     font-size: 60px;
+  }
+
+  .pag1 h1 span{
+     font-size: 25px;
+  }
+  .navigation ul li a {
+     font-size: 25px;
+ }
+  h1{ /*diferenca de 2 a 3 e da pagina anterior de 6*/ 
+     font-size: 30px;
+  }
+  a{
+     font-size: 20px;
+  }
+  
+  header {
+     height: 60px;
+     
+ }
+
+
+.navigation ul li {
+  margin: 0 35px;
+}
+
+.pag1{
+height: 60vw;
+}
+
+.pag2{
+  height: 200vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-left{
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.container-right{
+  width: 90%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.container-de-texto{
+
+  display: flex;
+  flex-direction: column; 
+  height: 70%;
+  
+}
+
+
+.container-de-texto h1 {
+  margin: 10px 0; 
+  margin-bottom: 40px;
+  font-family: "cinzel";
+}
+
+.container-de-texto h1 span {
+  display: block; 
+  margin-top: 20px;
+  font-family: "Dm Serif Display"sans-serif;
+}
+
+
+.formulary-email{
+  width: 60%;
+  height: 70%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(to right, #09b595 00%, #01877e 40%,#01877e 60%, #09b595 100%);
+
+}
+.formulary-email form{
+  width: 90%;
+}
+
+.formulary-email h1 {
+  text-align: center;
+  color: rgb(41, 41, 41);
+  margin-bottom: 30px;
+  font-family: "cinzel",sans-serif;
+  
+}
+
+.form-group {
+  margin-bottom: 30px;
+  font-family: "cinzel"sans-serif;
+}
+
+.form-group textarea{
+  height: 120px;
+  
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(41, 41, 41);
+
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid  rgb(41, 41, 41);;
+  border-radius: 4px;
+}
+
+
+input[type="submit"] {
+
+  position: relative;
+  left: 5%;
+  top: 5%;
+  width: 90%;
+  padding: 15px;
+  background-color: rgb(41, 41, 41);
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: rgb(49, 61, 56);
+}
+
+.pag3{
+  height: 100vw;
+}
+
+.mapa-container{
+  background-color: #ecb11f;
+  width: 80vw;
+  height: 60vw;
+  margin-bottom: 20px;
+  
+}
+footer {
+  width: 100%; 
+  height: 20vw;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-family: "DM Serif Display",sans-serif;
+text-align: center;
+}
+
+
+
+.image-footer{
+display: flex;
+justify-content: center;
+
+}
+
+
+.image-footer img {
+max-width: 40px; 
+height: auto; 
+margin-right: 20px; 
+}
+} /*pronto */
+@media screen and (min-width: 1025px) and (max-width: 1200px) and (orientation:landscape){
+
+  .facet_sidebar {
+    display: none;
+  }
+  .pag1 h1{ /* diferenca de 10 da pag anterior */
+     font-size: 60px;
+  }
+
+  .pag1 h1 span{
+     font-size: 25px;
+  }
+  .navigation ul li a {
+     font-size: 25px;
+ }
+  h1{ /*diferenca de 2 a 3 e da pagina anterior de 6*/ 
+     font-size: 30px;
+  }
+  a{
+     font-size: 20px;
+  }
+  
+  header {
+     height: 60px;
+     
+ }
+
+
+.navigation ul li {
+  margin: 0 35px;
+}
+
+.pag1{
+height: 60vw;
+}
+
+.pag2{
+  height: 200vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-left{
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.container-right{
+  width: 90%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.container-de-texto{
+
+  display: flex;
+  flex-direction: column; 
+  height: 70%;
+  
+}
+
+
+.container-de-texto h1 {
+  margin: 10px 0; 
+  margin-bottom: 40px;
+  font-family: "cinzel";
+}
+
+.container-de-texto h1 span {
+  display: block; 
+  margin-top: 20px;
+  font-family: "Dm Serif Display"sans-serif;
+}
+
+
+.formulary-email{
+  width: 60%;
+  height: 70%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(to right, #09b595 00%, #01877e 40%,#01877e 60%, #09b595 100%);
+
+}
+.formulary-email form{
+  width: 90%;
+}
+
+.formulary-email h1 {
+  text-align: center;
+  color: rgb(41, 41, 41);
+  margin-bottom: 30px;
+  font-family: "cinzel",sans-serif;
+  
+}
+
+.form-group {
+  margin-bottom: 30px;
+  font-family: "cinzel"sans-serif;
+}
+
+.form-group textarea{
+  height: 120px;
+  
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(41, 41, 41);
+
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid  rgb(41, 41, 41);;
+  border-radius: 4px;
+}
+
+
+input[type="submit"] {
+
+  position: relative;
+  left: 5%;
+  top: 5%;
+  width: 90%;
+  padding: 15px;
+  background-color: rgb(41, 41, 41);
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: rgb(49, 61, 56);
+}
+
+.pag3{
+  height: 100vw;
+}
+
+.mapa-container{
+  background-color: #ecb11f;
+  width: 80vw;
+  height: 60vw;
+  margin-bottom: 20px;
+  
+}
+footer {
+  width: 100%; 
+  height: 20vw;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-family: "DM Serif Display",sans-serif;
+text-align: center;
+}
+
+
+
+.image-footer{
+display: flex;
+justify-content: center;
+
+}
+
+
+.image-footer img {
+max-width: 40px; 
+height: auto; 
+margin-right: 20px; 
+}
+} /*pronto  */
+
+@media screen and (min-width: 1201px) and (max-width: 1600px){
+    .facet_sidebar {
+      display: none;
+    }
+    .pag1 h1{ /* diferenca de 10 da pag anterior */
+       font-size: 60px;
+    }
+  
+    .pag1 h1 span{
+       font-size: 30px;
+    }
+
+    h1,label{ /*diferenca de 2 a 3 e da pagina anterior de 6*/ 
+       font-size: 30px;
+    }
+    a{
+       font-size: 20px;
+    }
+    header {
+      height: 70px;
+  }
+
+  .navigation ul li a {
+     font-size: 25px;
+  }
+   
+     .navigation ul li {
+         margin: 0 50px;
+     }
+     
+  .pag1{
+  height: 60vw;
+  }
+  .pag2{
+    height: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .container-left{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  .container-right{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  
+  .container-de-texto{
+  
+    display: flex;
+    flex-direction: column; 
+    height: 50%;
+    
+  }
+  
+  
+  .container-de-texto h1 {
+    margin: 10px 0; 
+    margin-bottom: 40px;
+    font-family: "cinzel";
+  }
+  
+  .container-de-texto h1 span {
+    display: block; 
+    margin-top: 20px;
+    font-family: "Dm Serif Display"sans-serif;
+  }
+  
+  
+  .formulary-email{
+    width: 70%;
+    height: 50%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to right, #09b595 00%, #01877e 40%,#01877e 60%, #09b595 100%);
+  
+  }
+  .formulary-email form{
+    width: 90%;
+  }
+  
+  .formulary-email h1 {
+    text-align: center;
+    color: rgb(41, 41, 41);
+    margin-bottom: 50px;
+    font-family: "cinzel",sans-serif;
+    
+  }
+  
+  .form-group {
+    margin-bottom: 0px;
+    font-family:"cinzel",sans-serif;
+  }
+  
+  .form-group textarea{
+    height: 90px;
+    
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: rgb(41, 41, 41);
+    
+  
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid  rgb(41, 41, 41);;
+    border-radius: 4px;
+  }
+  
+  
+  input[type="submit"] {
+  
+    position: relative;
+    left: 5%;
+    top: 16%;
+    width: 90%;
+    padding: 15px;
+    background-color: rgb(41, 41, 41);
+    transition: background-color 0.3s ease;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: rgb(49, 61, 56);
+  }
+  
+  .pag3{
+    height: 80vw;
+  }
+  
+  .mapa-container{
+    background-color: #ecb11f;
+    width: 80vw;
+    height: 60vw;
+    margin-bottom: 20px;
+    
+  }
+  footer {
+    width: 100%; 
+    height: 19vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "DM Serif Display",sans-serif;
+  text-align: center;
+  }
+  
+  
+  
+  .image-footer{
+  display: flex;
+  justify-content: center;
+  
+  }
+  
+  
+  .image-footer img {
+  max-width: 40px; 
+  height: auto; 
+  margin-right: 20px; 
+  }
+  } /*pronto  */
+@media screen and (min-width: 1201px) and (max-width: 1600px) and (orientation:landscape){
+    .facet_sidebar {
+      display: none;
+    }
+    .pag1 h1{ /* diferenca de 10 da pag anterior */
+       font-size: 60px;
+    }
+  
+    .pag1 h1 span{
+       font-size: 30px;
+    }
+  
+    h1,label{ /*diferenca de 2 a 3 e da pagina anterior de 6*/ 
+       font-size: 30px;
+    }
+    a,  .formulary-email form input{
+       font-size: 20px;
+    }
+
+  
+
+   .formulary-email h1{
+    font-size: 40px;
+    font-family: "rowdies",sans-serif;
+    position: relative;
+    bottom: 1%;
+   }
+
+   input[type="text"],
+  input[type="email"]{
+    height: 50px;
+
+  }
+    
+    header {
+       height: 70px;
+      
+       
+   }
+  
+  
+  .navigation ul li {
+    margin: 0 25px;
+  }
+  
+  .pag1{
+  height: 60vw;
+  }
+  
+  .pag2{
+    height: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .container-left{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  .container-right{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  
+  .container-de-texto{
+  
+    display: flex;
+    flex-direction: column; 
+    height: 50%;
+    
+  }
+  
+  
+  .container-de-texto h1 {
+    margin: 10px 0; 
+    margin-bottom: 40px;
+    font-family: "cinzel";
+  }
+  
+  .container-de-texto h1 span {
+    display: block; 
+    margin-top: 20px;
+    font-family: "Dm Serif Display"sans-serif;
+  }
+  
+  
+  .formulary-email{
+    width: 70%;
+    height: 50%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to right, #09b595 00%, #01877e 40%,#01877e 60%, #09b595 100%);
+  
+  }
+  .formulary-email form{
+    width: 90%;
+  }
+  
+  .formulary-email h1 {
+    text-align: center;
+    color: rgb(41, 41, 41);
+    margin-bottom: 30px;
+    font-family: "cinzel",sans-serif;
+    
+  }
+  
+  .form-group {
+    margin-bottom: 0px;
+    font-family:"cinzel",sans-serif;
+  }
+  
+  .form-group textarea{
+    height: 70px;
+    
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: rgb(41, 41, 41);
+    
+  
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid  rgb(41, 41, 41);;
+    border-radius: 4px;
+  }
+  
+  
+  input[type="submit"] {
+  
+    position: relative;
+    left: 5%;
+    top: 5%;
+    width: 90%;
+    padding: 15px;
+    background-color: rgb(41, 41, 41);
+    transition: background-color 0.3s ease;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: rgb(49, 61, 56);
+  }
+  
+  .pag3{
+    height: 80vw;
+  }
+  
+  .mapa-container{
+    background-color: #ecb11f;
+    width: 80vw;
+    height: 60vw;
+    margin-bottom: 20px;
+    
+  }
+  footer {
+    width: 100%; 
+    height: 19vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "DM Serif Display",sans-serif;
+  text-align: center;
+  }
+  
+  
+  
+  .image-footer{
+  display: flex;
+  justify-content: center;
+  
+  }
+  
+  
+  .image-footer img {
+  max-width: 40px; 
+  height: auto; 
+  margin-right: 20px; 
+  }
+  } /* pronto  */
+
+  @media screen and (min-width: 1601px) and (max-width: 2000px) {
+    .facet_sidebar {
+      display: none;
+    }
+    
+
+    .pag1 h1{ /* diferenca de 10 da pag anterior */
+      font-size: 82px;
+   }
+
+   .pag1 h1 span{
+      font-size: 42px;
+   }
+  
+   h1, .form-group label{ /*diferenca de 2 a 3 e da pagina anterior de 6*/ 
+      font-size: 42px;
+   }
+   a,  .formulary-email form input{
+      font-size: 40px;
+   }
+
+   .formulary-email h1{
+    font-size: 50px;
+    font-family: "rowdies",sans-serif;
+    position: relative;
+    bottom: 10%;
+   }
+
+   input[type="text"],
+  input[type="email"]{
+    height: 60px;
+
+  }
+  
+  .pag1{
+  height: 60vw;
+  }
+
+  .pag1 h1 {
+    display: block; /* Alterado para block para que fique acima do span */
+    margin-bottom: 10px; /* Espaçamento entre o h1 e o span */
+    position: relative; /* Para posicionar o span em relação ao h1 */
+    font-family: "cinzel";
+}
+
+.pag1 h1::after {
+  content: "";
+  position: absolute;
+  bottom: 40px;
+  left: 0;
+  width: 100%;
+  height: 5px; /* Espessura da linha */
+  background-color: #ecb11f; /* Cor da linha */
+  z-index: 1; /* Para colocar a linha atrás do texto */
+}
+
+.pag1 h1 span {
+  display: block; /* Faz o span se comportar como um bloco */
+  margin-top: 15px; /* Espaçamento entre o h1 e o span */
+  font-family: "DM Serif Display",sans-serif;
+}
+  
+  .pag2{
+    height: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .container-left{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  .container-right{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  
+  .container-de-texto{
+  
+    display: flex;
+    flex-direction: column; 
+    height: 55%;
+  
+    
+  }
+  
+  
+  .container-de-texto h1 {
+    margin: 10px 0; 
+    margin-bottom: 40px;
+    font-family: "cinzel";
+  }
+  
+  .container-de-texto h1 span {
+    display: block; 
+    margin-top: 20px;
+    font-family: "Dm Serif Display"sans-serif;
+    
+  }
+  
+  
+  .formulary-email{
+    width: 70%;
+    height: 55%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to right, #09b595 00%, #01877e 40%,#01877e 60%, #09b595 100%);
+  
+  }
+  .formulary-email form{
+    width: 90%;
+  }
+  
+  .formulary-email h1 {
+    text-align: center;
+    color: rgb(41, 41, 41);
+    margin-bottom: 0px;
+    font-family: "cinzel",sans-serif;
+    
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+    font-family:"cinzel",sans-serif;
+  }
+  
+  .form-group textarea{
+    height: 90px;
+    
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: rgb(41, 41, 41);
+    
+  
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    
+    padding: 15px;
+    border: 1px solid  rgb(41, 41, 41);;
+    border-radius: 4px;
+  }
+  
+  
+  input[type="submit"] {
+  
+    position: relative;
+    left: 5%;
+    top: 5%;
+    width: 90%;
+    padding: 15px;
+    background-color: rgb(41, 41, 41);
+    transition: background-color 0.3s ease;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: rgb(49, 61, 56);
+  }
+  
+  .pag3{
+    height: 80vw;
+  }
+  
+  .mapa-container{
+    background-color: #ecb11f;
+    width: 80vw;
+    height: 60vw;
+    margin-bottom: 20px;
+    
+  }
+  footer {
+    width: 100%; 
+    height: 19vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "DM Serif Display",sans-serif;
+  text-align: center;
+  }
+  
+  
+  
+  .image-footer{
+  display: flex;
+  justify-content: center;
+  
+  }
+  
+  
+  .image-footer img {
+  max-width: 40px; 
+  height: auto; 
+  margin-right: 20px; 
+  }
+  } /* pronto  */
+@media screen and (min-width: 1601px) and (max-width: 2000px) and (orientation:landscape){
+    .facet_sidebar {
+      display: none;
+    }
+
+
+    .pag1 h1{ /* diferenca de 10 da pag anterior */
+      font-size: 82px;
+   }
+
+   .pag1 h1 span{
+      font-size: 42px;
+   }
+  
+   h1, .form-group label{ /*diferenca de 2 a 3 e da pagina anterior de 6*/ 
+      font-size: 50px;
+   }
+   a,  .formulary-email form input{
+      font-size: 40px;
+   }
+
+   .formulary-email h1{
+    font-size: 70px;
+    font-family: "rowdies",sans-serif;
+    position: relative;
+    bottom: 1%;
+   }
+
+   input[type="text"],
+  input[type="email"]{
+    height: 100px;
+
+  }
+  
+  .pag1{
+  height: 60vw;
+  }
+
+  .pag1 h1 {
+    display: block; /* Alterado para block para que fique acima do span */
+    margin-bottom: 10px; /* Espaçamento entre o h1 e o span */
+    position: relative; /* Para posicionar o span em relação ao h1 */
+    font-family: "cinzel";
+}
+
+.pag1 h1::after {
+  content: "";
+  position: absolute;
+  bottom: 55px;
+  left: 0;
+  width: 100%;
+  height: 5px; /* Espessura da linha */
+  background-color: #ecb11f; /* Cor da linha */
+  z-index: 1; /* Para colocar a linha atrás do texto */
+}
+
+.pag1 h1 span {
+  display: block; /* Faz o span se comportar como um bloco */
+  margin-top: 15px; /* Espaçamento entre o h1 e o span */
+  font-family: "DM Serif Display",sans-serif;
+}
+  
+  .pag2{
+    height: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .container-left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  .container-right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  
+  
+  
+  .container-de-texto{
+  
+    display: flex;
+    flex-direction: column; 
+    height: 55%;
+    
+  }
+  
+  
+  .container-de-texto h1 {
+    margin: 10px 0; 
+    margin-bottom: 40px;
+    font-family: "cinzel";
+  }
+  
+  .container-de-texto h1 span {
+    display: block; 
+    margin-top: 20px;
+    font-family: "Dm Serif Display"sans-serif;
+  }
+  
+  .formulary-email{
+    width: 80%;
+    height: 55%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to right, #09b595 00%, #01877e 40%,#01877e 60%, #09b595 100%);
+  
+  }
+  .formulary-email form{
+    width: 90%;
+  }
+  
+  .formulary-email h1 {
+    text-align: center;
+    color: rgb(41, 41, 41);
+    margin-bottom: 30px;
+   
+    
+  }
+  
+  .form-group {
+    margin-bottom: 30px;
+    font-family:"cinzel",sans-serif;
+  }
+  
+  .form-group textarea{
+    height: 100px;
+    
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: rgb(41, 41, 41);
+    
+  
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid  rgb(41, 41, 41);;
+    border-radius: 4px;
+  }
+  
+  
+  input[type="submit"] {
+  
+    position: relative;
+    left: 5%;
+    top: -1%;
+    width: 90%;
+    padding: 15px;
+    background-color: rgb(41, 41, 41);
+    transition: background-color 0.3s ease;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: rgb(49, 61, 56);
+  }
+  
+  .pag3{
+    height: 80vw;
+  }
+  
+  .mapa-container{
+    background-color: #ecb11f;
+    width: 80vw;
+    height: 60vw;
+    margin-bottom: 20px;
+    
+  }
+  footer {
+    width: 100%; 
+    height: 19vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "DM Serif Display",sans-serif;
+  text-align: center;
+  }
+  
+  
+  
+  .image-footer{
+  display: flex;
+  justify-content: center;
+  
+  }
+  
+  
+  .image-footer img {
+  max-width: 70px; 
+  height: auto; 
+  margin-right: 20px; 
+  }
+  } /* pronto  */
+
+  @media screen and (min-width: 2001px) and (max-width: 2500px) {
+    .facet_sidebar {
+      display: none;
+    }
+    header {
+      height: 110px;
+  }
+
+  .navigation ul li a {
+    font-size: 50px;
+}
+
+    .pag1 h1{ /* diferenca de 10 da pag anterior */
+      font-size: 82px;
+   }
+
+   .pag1 h1 span{
+      font-size: 42px;
+   }
+  
+   h1, .form-group label{ /*diferenca de 2 a 3 e da pagina anterior de 6*/ 
+      font-size: 50px;
+   }
+   a,  .formulary-email form input{
+      font-size: 40px;
+   }
+
+   .formulary-email h1{
+    font-size: 70px;
+    font-family: "rowdies",sans-serif;
+    position: relative;
+    bottom: 10%;
+   }
+
+   input[type="text"],
+  input[type="email"]{
+    height: 100px;
+
+  }
+ 
+
+  .pag1{
+  height: 60vw;
+  }
+
+  .pag1 h1 {
+    display: block; /* Alterado para block para que fique acima do span */
+    margin-bottom: 10px; /* Espaçamento entre o h1 e o span */
+    position: relative; /* Para posicionar o span em relação ao h1 */
+    font-family: "cinzel";
+}
+
+.pag1 h1::after {
+  content: "";
+  position: absolute;
+  bottom: 40%;
+  left: 0;
+  width: 100%;
+  height: 5px; /* Espessura da linha */
+  background-color: #ecb11f; /* Cor da linha */
+  z-index: 1; /* Para colocar a linha atrás do texto */
+}
+
+.pag1 h1 span {
+  display: block; /* Faz o span se comportar como um bloco */
+  margin-top: 15px; /* Espaçamento entre o h1 e o span */
+  font-family: "DM Serif Display",sans-serif;
+}
+  
+  .pag2{
+    height: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .container-left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  .container-right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  
+  .container-de-texto{
+  
+    display: flex;
+    flex-direction: column; 
+    height: 55%;
+    
+  }
+  
+  
+  .container-de-texto h1 {
+    margin: 10px 0; 
+    margin-bottom: 60px;
+    font-family: "cinzel";
+  }
+  
+  .container-de-texto h1 span {
+    display: block; 
+    margin-top: 50px;
+    font-family: "Dm Serif Display"sans-serif;
+  }
+  
+  
+  .formulary-email{
+    width: 80%;
+    height: 55%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to right, #09b595 00%, #01877e 40%,#01877e 60%, #09b595 100%);
+  
+  }
+  .formulary-email form{
+    width: 90%;
+  
+  }
+  
+  .formulary-email h1 {
+    text-align: center;
+    color: rgb(41, 41, 41);
+    margin-bottom: 30px;
+    
+  }
+  
+  .form-group {
+    margin-bottom: 30px;
+    font-family:"cinzel",sans-serif;
+  }
+  
+  .form-group textarea{
+    height: 200px;
+    
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: rgb(41, 41, 41);
+    
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid  rgb(41, 41, 41);;
+    border-radius: 4px;
+  }
+  
+  
+  input[type="submit"] {
+  
+    position: relative;
+    left: 5%;
+    top: 5%;
+    width: 90%;
+    height: 10%;
+    padding: 15px;
+    background-color: rgb(41, 41, 41);
+    transition: background-color 0.3s ease;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: rgb(49, 61, 56);
+  }
+  
+  .pag3{
+    height: 80vw;
+  }
+  
+  .mapa-container{
+    background-color: #ecb11f;
+    width: 80vw;
+    height: 60vw;
+    margin-bottom: 20px;
+    
+  }
+  footer {
+    width: 100%; 
+    height: 19vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "DM Serif Display",sans-serif;
+  text-align: center;
+  }
+  
+  
+  
+  .image-footer{
+  display: flex;
+  justify-content: center;
+  
+  }
+  
+  
+  .image-footer img {
+  max-width: 70px; 
+  height: auto; 
+  margin-right: 20px; 
+  }
+  } /*pronto */
+  @media screen and (min-width: 2001px) and (max-width: 2500px) and (orientation:landscape) {
+    .facet_sidebar {
+      display: none;
+    }
+    header {
+      height: 110px;
+  }
+
+  .navigation ul li a {
+    font-size: 50px;
+}
+
+    .pag1 h1{ /* diferenca de 10 da pag anterior */
+      font-size: 82px;
+   }
+
+   .pag1 h1 span{
+      font-size: 42px;
+   }
+  
+   h1, .form-group label{ /*diferenca de 2 a 3 e da pagina anterior de 6*/ 
+      font-size: 50px;
+   }
+   a,  .formulary-email form input{
+      font-size: 40px;
+   }
+
+   .formulary-email h1{
+    font-size: 70px;
+    font-family: "rowdies",sans-serif;
+    position: relative;
+    bottom: 10%;
+   }
+
+   input[type="text"],
+  input[type="email"]{
+    height: 100px;
+
+  }
+ 
+
+  .pag1{
+  height: 60vw;
+  }
+
+  .pag1 h1 {
+    display: block; /* Alterado para block para que fique acima do span */
+    margin-bottom: 10px; /* Espaçamento entre o h1 e o span */
+    position: relative; /* Para posicionar o span em relação ao h1 */
+    font-family: "cinzel";
+}
+
+.pag1 h1::after {
+  content: "";
+  position: absolute;
+  bottom: 40%;
+  left: 0;
+  width: 100%;
+  height: 5px; /* Espessura da linha */
+  background-color: #ecb11f; /* Cor da linha */
+  z-index: 1; /* Para colocar a linha atrás do texto */
+}
+
+.pag1 h1 span {
+  display: block; /* Faz o span se comportar como um bloco */
+  margin-top: 15px; /* Espaçamento entre o h1 e o span */
+  font-family: "DM Serif Display",sans-serif;
+}
+  
+  .pag2{
+    height: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .container-left{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  .container-right{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  
+  .container-de-texto{
+  
+    display: flex;
+    flex-direction: column; 
+    height: 55%;
+    
+  }
+  
+  
+  .container-de-texto h1 {
+    margin: 10px 0; 
+    margin-bottom: 60px;
+    font-family: "cinzel";
+  }
+  
+  .container-de-texto h1 span {
+    display: block; 
+    margin-top: 50px;
+    font-family: "Dm Serif Display"sans-serif;
+  }
+  
+  
+  .formulary-email{
+    width: 80%;
+    height: 55%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to right, #09b595 00%, #01877e 40%,#01877e 60%, #09b595 100%);
+  
+  }
+  .formulary-email form{
+    width: 90%;
+  
+  }
+  
+  .formulary-email h1 {
+    text-align: center;
+    color: rgb(41, 41, 41);
+    margin-bottom: 30px;
+    
+  }
+  
+  .form-group {
+    margin-bottom: 30px;
+    font-family:"cinzel",sans-serif;
+  }
+  
+  .form-group textarea{
+    height: 200px;
+    
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: rgb(41, 41, 41);
+    
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid  rgb(41, 41, 41);;
+    border-radius: 4px;
+  }
+  
+  
+  input[type="submit"] {
+  
+    position: relative;
+    left: 5%;
+    top: 5%;
+    width: 90%;
+    height: 10%;
+    padding: 15px;
+    background-color: rgb(41, 41, 41);
+    transition: background-color 0.3s ease;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: rgb(49, 61, 56);
+  }
+  
+  .pag3{
+    height: 80vw;
+  }
+  
+  .mapa-container{
+    background-color: #ecb11f;
+    width: 80vw;
+    height: 60vw;
+    margin-bottom: 20px;
+    
+  }
+  footer {
+    width: 100%; 
+    height: 19vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "DM Serif Display",sans-serif;
+  text-align: center;
+  }
+  
+  
+  
+  .image-footer{
+  display: flex;
+  justify-content: center;
+  
+  }
+  
+  
+  .image-footer img {
+  max-width: 70px; 
+  height: auto; 
+  margin-right: 20px; 
+  }
+  } /* pronto */
+
+  @media screen and (min-width: 2501px) and (max-width: 4000px) {
+    .facet_sidebar {
+      display: none;
+    }
+    header {
+      height: 170px;
+  }
+
+  .navigation ul li a {
+    font-size: 80px;
+}
+
+.navigation ul li {
+  margin: 0 50px;
+}
+
+
+    .pag1 h1{ /* diferenca de 10 da pag anterior */
+      font-size: 122px;
+   }
+
+   .pag1 h1 span{
+      font-size: 75px;
+   }
+  
+   h1, .form-group label{ /*diferenca de 2 a 3 e da pagina anterior de 6*/ 
+      font-size: 75px;
+   }
+   a,  .formulary-email form input{
+      font-size: 70px;
+   }
+
+   .formulary-email h1{
+    font-size: 70px;
+    font-family: "rowdies",sans-serif;
+    position: relative;
+    bottom: 6%;
+   }
+
+   input[type="text"],
+  input[type="email"]{
+    height: 100px;
+
+  }
+ 
+
+  .pag1{
+  height: 60vw;
+  }
+
+  .pag1 h1 {
+    display: block; /* Alterado para block para que fique acima do span */
+    margin-bottom: 10px; /* Espaçamento entre o h1 e o span */
+    position: relative; /* Para posicionar o span em relação ao h1 */
+    font-family: "cinzel";
+}
+
+.pag1 h1::after {
+  content: "";
+  position: absolute;
+  bottom: 40%;
+  left: 0;
+  width: 100%;
+  height: 5px; /* Espessura da linha */
+  background-color: #ecb11f; /* Cor da linha */
+  z-index: 1; /* Para colocar a linha atrás do texto */
+}
+
+.pag1 h1 span {
+  display: block; /* Faz o span se comportar como um bloco */
+  margin-top: 15px; /* Espaçamento entre o h1 e o span */
+  font-family: "DM Serif Display",sans-serif;
+}
+  
+  .pag2{
+    height: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .container-left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  .container-right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  
+  .container-de-texto{
+  
+    display: flex;
+    flex-direction: column; 
+    height: 55%;
+    
+  }
+  
+  
+  .container-de-texto h1 {
+    margin: 10px 0; 
+    margin-bottom: 60px;
+    font-family: "cinzel";
+  }
+  
+  .container-de-texto h1 span {
+    display: block; 
+    margin-top: 50px;
+    font-family: "Dm Serif Display"sans-serif;
+  }
+  
+  
+  .formulary-email{
+    width: 80%;
+    height: 55%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to right, #09b595 00%, #01877e 40%,#01877e 60%, #09b595 100%);
+  
+  }
+  .formulary-email form{
+    width: 90%;
+  
+  }
+  
+  .formulary-email h1 {
+    text-align: center;
+    color: rgb(41, 41, 41);
+    margin-bottom: 0px;
+    
+  }
+  
+  .form-group {
+    margin-bottom: 0px;
+    font-family:"cinzel",sans-serif;
+  }
+  
+  .form-group textarea{
+    height: 200px;
+    
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: rgb(41, 41, 41);
+    
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid  rgb(41, 41, 41);;
+    border-radius: 4px;
+    margin-bottom: 80px;
+  }
+  
+  
+  input[type="submit"] {
+  
+    position: relative;
+    left: 5%;
+    top: -1%;
+    width: 90%;
+    height: 10%;
+    padding: 15px;
+    background-color: rgb(41, 41, 41);
+    transition: background-color 0.3s ease;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: rgb(49, 61, 56);
+  }
+  
+  .pag3{
+    height: 80vw;
+  }
+  
+  .mapa-container{
+    background-color: #ecb11f;
+    width: 80vw;
+    height: 60vw;
+    margin-bottom: 20px;
+    
+  }
+  footer {
+    width: 100%; 
+    height: 19vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "DM Serif Display",sans-serif;
+  text-align: center;
+  }
+  
+  
+  
+  .image-footer{
+  display: flex;
+  justify-content: center;
+  
+  }
+  
+  
+  .image-footer img {
+  max-width: 90px; 
+  height: auto; 
+  margin-right: 20px; 
+  }
+  } /* pronto */
+  @media screen and (min-width: 2501px) and (max-width: 4000px) and (orientation:landscape) {
+    .facet_sidebar {
+      display: none;
+    }
+    header {
+      height: 170px;
+  }
+
+  .navigation ul li a {
+    font-size: 80px;
+}
+
+.navigation ul li {
+  margin: 0 50px;
+}
+
+
+    .pag1 h1{ /* diferenca de 10 da pag anterior */
+      font-size: 122px;
+   }
+
+   .pag1 h1 span{
+      font-size: 75px;
+   }
+  
+   h1, .form-group label{ /*diferenca de 2 a 3 e da pagina anterior de 6*/ 
+      font-size: 75px;
+   }
+   a,  .formulary-email form input{
+      font-size: 70px;
+   }
+
+   .formulary-email h1{
+    font-size: 70px;
+    font-family: "rowdies",sans-serif;
+    position: relative;
+    bottom: 0%;
+   }
+
+   input[type="text"],
+  input[type="email"]{
+    height: 100px;
+
+  }
+ 
+
+  .pag1{
+  height: 60vw;
+  }
+
+  .pag1 h1 {
+    display: block; /* Alterado para block para que fique acima do span */
+    margin-bottom: 10px; /* Espaçamento entre o h1 e o span */
+    position: relative; /* Para posicionar o span em relação ao h1 */
+    font-family: "cinzel";
+}
+
+.pag1 h1::after {
+  content: "";
+  position: absolute;
+  bottom: 40%;
+  left: 0;
+  width: 100%;
+  height: 5px; /* Espessura da linha */
+  background-color: #ecb11f; /* Cor da linha */
+  z-index: 1; /* Para colocar a linha atrás do texto */
+}
+
+.pag1 h1 span {
+  display: block; /* Faz o span se comportar como um bloco */
+  margin-top: 15px; /* Espaçamento entre o h1 e o span */
+  font-family: "DM Serif Display",sans-serif;
+}
+  
+  .pag2{
+    height: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .container-left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  .container-right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  
+  .container-de-texto{
+  
+    display: flex;
+    flex-direction: column; 
+    height: 55%;
+    
+  }
+  
+  
+  .container-de-texto h1 {
+    margin: 10px 0; 
+    margin-bottom: 60px;
+    font-family: "cinzel";
+  }
+  
+  .container-de-texto h1 span {
+    display: block; 
+    margin-top: 50px;
+    font-family: "Dm Serif Display"sans-serif;
+  }
+  
+  
+  .formulary-email{
+    width: 80%;
+    height: 55%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to right, #09b595 00%, #01877e 40%,#01877e 60%, #09b595 100%);
+  
+  }
+  .formulary-email form{
+    width: 90%;
+  
+  }
+  
+  .formulary-email h1 {
+    text-align: center;
+    color: rgb(41, 41, 41);
+    margin-bottom: 30px;
+    
+  }
+  
+  .form-group {
+    margin-bottom: 30px;
+    font-family:"cinzel",sans-serif;
+  }
+  
+  .form-group textarea{
+    height: 200px;
+    
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: rgb(41, 41, 41);
+    
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid  rgb(41, 41, 41);;
+    border-radius: 4px;
+    margin-bottom: 100px;
+  }
+  
+  
+  input[type="submit"] {
+  
+    position: relative;
+    left: 5%;
+    top: -2%;
+    width: 90%;
+    height: 10%;
+    padding: 15px;
+    background-color: rgb(41, 41, 41);
+    transition: background-color 0.3s ease;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: rgb(49, 61, 56);
+  }
+  
+  .pag3{
+    height: 80vw;
+  }
+  
+  .mapa-container{
+    background-color: #ecb11f;
+    width: 80vw;
+    height: 60vw;
+    margin-bottom: 20px;
+    
+  }
+  footer {
+    width: 100%; 
+    height: 19vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "DM Serif Display",sans-serif;
+  text-align: center;
+  }
+  
+  
+  
+  .image-footer{
+  display: flex;
+  justify-content: center;
+  
+  }
+  
+  
+  .image-footer img {
+  max-width: 90px; 
+  height: auto; 
+  margin-right: 20px; 
+  }
+  } /* pronto */

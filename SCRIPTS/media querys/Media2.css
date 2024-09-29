@@ -1,0 +1,4726 @@
+
+@media screen and (max-width:300px) {
+      .facet_sidebar {
+          display: none;
+        }
+           
+     .pag1 h1{ /* diferenca de 10 da pag anterior */
+      font-size: 15px;
+   }
+
+   .pag1 h1 span{
+      font-size: 10px;
+   }
+   .navigation ul li a {
+      font-size: 14px;
+  }
+   h1{ /*diferenca de 2 a 3 e da pagina anterior de 6*/ 
+      font-size: 15px;
+   }
+   a{
+      font-size: 10px;
+   }
+   
+   header {
+      height: 20px;
+  }
+
+  .navigation ul li {
+      margin: 0 20px;
+  }
+   
+      .pag1{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         height: 80vw;
+      }
+   
+      .pag1 h1 {
+          width: 85%; 
+   
+      }
+   
+      .pag1 h1 span {
+          margin-top: 20px;
+      }
+   
+      .retangular-container {
+          top: 20%;
+          height: 80px;
+          width: 90%;
+      }
+   
+      /* pag 2 media query */
+     .pag2{
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      height: 550vw;
+     }
+     .card-de-texto {
+         width: 90%; 
+         height: auto;
+         padding: 10px; 
+         margin-top: 30px;
+         margin-bottom: 20px;
+              
+     }
+   
+     .card-de-texto h1{
+      display: flex;
+      height: 10%;
+      position: relative;
+      bottom: 5%;
+      margin-left: 25px;
+      margin-top: 20px;
+      margin-bottom: 15px;
+      font-family: "DM Serif Display", sans-serif;
+    
+   }
+   
+   .card-de-texto ul{
+      margin-left: -5px;
+   }
+   
+   .card-de-texto ul li,a{
+      margin-bottom: 10px;
+      font-family: "Roboto",sans-serif;
+      list-style: none;
+      width: 90%;
+      position: relative;
+      top: 5%;  
+   }
+   
+   .container-container{
+      height: auto;
+      padding-top: 100%; 
+      margin-bottom: 20px;
+      width: 100%;
+      left: -5%;
+      top: 40%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      position: relative;    
+   }
+   
+   .container-p2{    
+     background-color: transparent;
+      width: 50%;
+      height: auto;
+      padding-top: 0%; 
+      position: relative;
+      display: flex;
+       flex-direction: column;    
+   }
+   
+   .one-card{
+      position: relative;
+      top: 0%;
+      left: 0%;
+      background-color: aqua; 
+      width: 100%;
+      height: auto; 
+      padding-top: 100%; 
+      background-image: url(/IMG/pagina2/section2/img2\ 278x724.png);
+      background-repeat: no-repeat;
+      background-size: cover;  
+   }
+   
+   .two-card{
+      background-image: url(/IMG/pagina2/section2/quartocard.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 50%; 
+      height: auto;
+      padding-top: 50%; 
+      margin-bottom: 10px;
+      border: 1px solid #e0e0e0;
+      position: relative;
+      top: 81%;
+      left: 6%;
+   }
+   
+   .one-card, .two-card {
+      margin-top: 20px; 
+      transition: margin-top 0.3s ease; 
+   }
+   
+   @media (max-width: 300px) {
+      .card-de-texto {
+         height: auto; 
+      }
+   
+     
+   }
+   
+   /* pagina 3 */
+    .pag3 {
+      padding: 10px; 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+       height: 500vw; 
+      }
+      .card-de-texto h1{
+         display: flex;
+         height: 10%;
+         position: relative;
+         bottom: 5%;
+         margin-left: 25px;
+         margin-top: 20px;
+         margin-bottom: 15px;
+         font-family: "DM Serif Display", sans-serif;
+      }
+      
+      .card-de-texto ul{
+         margin-left: 5px;
+      
+      }
+      
+      .card-de-texto ul li,a{
+         margin-bottom: 20px;
+         font-family: "Roboto",sans-serif;
+         list-style: none;
+         width: 75%;
+         position: relative;
+         top: 5%;
+      } 
+
+      
+     #cardall {
+      width: 90%; 
+     height: auto; 
+     padding-bottom: 20px;
+     margin-bottom: 100px;
+     box-sizing: border-box; 
+    
+  }
+
+  .card-text-two h1, .card-text-tree h1, .card-text-tfour h1 {
+      margin-left: 25px;
+      margin-top: 20px;
+      margin-bottom: 50px;
+      width: 80%;
+
+  }
+
+  .card-text-two ul, .card-text-tree ul, .card-text-tfour ul {
+      margin-left: 10px;
+      width:87%
+
+  }
+   
+      .pag4{
+         padding: 10px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-direction: column; 
+         height: 550vw;
+     }
+     
+     
+     #cardallp4 {
+      width: 90%;
+      height: auto; 
+      padding-bottom: 20px;
+      margin-bottom: 100px; 
+      margin-top: 10px;
+      box-sizing: border-box; 
+      }
+   
+ .card-text-five h1,.card-text-six h1{
+         margin-left: 25px;
+         margin-top: 20px;
+         margin-bottom: 50px;
+         font-family: "DM Serif Display",sans-serif;
+         width: 80%;
+
+      }
+     
+      
+      .card-text-five ul,li, .card-text-six ul,li {
+         margin-left: 10px;
+         list-style: none;
+         margin-bottom: 50px;
+         font-family: "Roboto",sans-serif;
+      }
+      .card-text-five ul, .card-text-six li {
+        width: 87%;}
+   
+      footer {
+         margin-top: 100px;
+         width: 100%; 
+         height: 45vw;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: "DM Serif Display",sans-serif;
+      text-align: center;
+     }
+   
+    .image-footer{
+      display: flex;
+      justify-content: center;
+     
+    }
+    
+     .image-footer img {
+      max-width: 20px; 
+      height: auto; 
+      margin-right: 20px;
+    }
+   
+   
+   
+   
+}/*pronto gg*/
+
+@media screen and (max-width:300px) and (orientation:landscape) {
+   .facet_sidebar {
+       display: none;
+     }
+     
+     .pag1 h1{ /* diferenca de 10 da pag anterior */
+      font-size: 15px;
+   }
+
+   .pag1 h1 span{
+      font-size: 10px;
+   }
+   .navigation ul li a {
+      font-size: 14px;
+  }
+   h1{ /*diferenca de 2 a 3 e da pagina anterior de 6*/ 
+      font-size: 15px;
+   }
+   a{
+      font-size: 10px;
+   }
+   
+   header {
+      height: 20px;
+  }
+
+  .navigation ul li {
+      margin: 0 20px;
+  }
+
+  
+
+   .pag1{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 80vw;
+   }
+
+   .pag1 h1 {
+       width: 85%; 
+
+   }
+
+   .pag1 h1 span {
+       margin-top: 30px;
+   }
+
+   .retangular-container {
+       top: 20%;
+       height: 60px;
+       width: 90%;
+   }
+
+   /* pag 2 media query */
+  .pag2{
+   display: flex;
+   justify-content: center;
+   align-items: flex-start;
+   height: 350vw;
+  }
+  
+.card-de-texto h1{
+   display: flex;
+   height: 10%;
+   position: relative;
+   bottom: 5%;
+   margin-left: 25px;
+   margin-top: 20px;
+   margin-bottom: 15px;
+   font-family: "DM Serif Display", sans-serif;
+}
+
+.card-de-texto ul{
+   margin-left: 5px;
+
+}
+
+.card-de-texto ul li,a{
+   margin-bottom: 20px;
+   font-family: "Roboto",sans-serif;
+   list-style: none;
+   width: 75%;
+   position: relative;
+   top: 5%;
+} 
+
+
+.container-container{
+   height: auto;
+   padding-top: 100%; 
+   margin-bottom: 20px;
+   width: 100%;
+   left: -5%;
+   top: 40%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   position: relative;    
+}
+
+.container-p2{    
+  background-color: transparent;
+   width: 50%;
+   height: auto;
+   padding-top: 0%; 
+   position: relative;
+   display: flex;
+    flex-direction: column;    
+}
+
+.one-card{
+   position: relative;
+   top: 0%;
+   left: 0%;
+   background-color: aqua; 
+   width: 100%;
+   height: auto; 
+   padding-top: 100%; 
+   background-image: url(/IMG/pagina2/section2/img2\ 278x724.png);
+   background-repeat: no-repeat;
+   background-size: cover;  
+}
+
+.two-card{
+   background-image: url(/IMG/pagina2/section2/quartocard.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 50%; 
+   height: auto;
+   padding-top: 50%; 
+   margin-bottom: 10px;
+   border: 1px solid #e0e0e0;
+   position: relative;
+   top: 81%;
+   left: 6%;
+}
+
+.one-card, .two-card {
+   margin-top: 20px; 
+   transition: margin-top 0.3s ease; 
+}
+
+@media (max-width: 300px) {
+   .card-de-texto {
+      height: auto; 
+   }
+
+  
+}
+
+/* pagina 3 */
+ .pag3 {
+   padding: 10px; 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+    height: 500vw; 
+   }
+
+
+
+   #cardall {
+      width: 90%; 
+     height: auto; 
+     padding-bottom: 20px;
+     margin-bottom: 100px;
+     box-sizing: border-box; 
+    
+  }
+
+  .card-text-two h1, .card-text-tree h1, .card-text-tfour h1 {
+      margin-left: 25px;
+      margin-top: 20px;
+      margin-bottom: 50px;
+
+  }
+
+  .card-text-two ul, .card-text-tree ul, .card-text-tfour ul {
+      margin-left: 10px;
+      width:87%
+
+  }
+
+   .pag4{
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column; 
+      height: 550vw;
+  }
+  
+  
+  #cardallp4 {
+   width: 90%;
+   height: auto; 
+   padding-bottom: 20px;
+   margin-bottom: 100px; 
+   margin-top: 10px;
+   box-sizing: border-box; 
+   }
+
+.card-text-five h1,.card-text-six h1{
+      margin-left: 25px;
+      margin-top: 20px;
+      margin-bottom: 50px;
+      font-family: "DM Serif Display",sans-serif;
+
+   }
+  
+   
+   .card-text-five ul,li, .card-text-six ul,li {
+      margin-left: 10px;
+      list-style: none;
+      margin-bottom: 50px;
+      font-family: "Roboto",sans-serif;
+   }
+   .card-text-five ul, .card-text-six li {
+     width: 87%;}
+
+   footer {
+      margin-top: 100px;
+      width: 100%; 
+      height: 45vw;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   font-family: "DM Serif Display",sans-serif;
+   text-align: center;
+  }
+
+ .image-footer{
+   display: flex;
+   justify-content: center;
+  
+ }
+ 
+  .image-footer img {
+   max-width: 20px; 
+   height: auto; 
+   margin-right: 20px;
+ }
+
+
+
+
+}/*pronto gg*/
+
+
+@media screen and (min-width: 301px) and (max-width: 480px)  {
+   .pag1 h1{ /* diferenca de 10 da pag anterior */
+      font-size: 25px;
+   }
+
+   .pag1 h1 span{
+      font-size: 15px;
+   }
+   .navigation ul li a {
+      font-size: 14px;
+  }
+   h1{ /*diferenca de 2 a 3 e da pagina anterior de 6*/ 
+      font-size: 20px;
+   }
+   a{
+      font-size: 15px;
+   }
+   
+   header {
+      height: 40px;
+  }
+
+  .navigation ul li {
+      margin: 0 20px;
+  }
+ 
+    .pag1{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       height: 100vw;
+    }
+ 
+    .pag1 h1 {
+        width: 80%; 
+ 
+    }
+ 
+    .pag1 h1 span {
+        margin-top: 55px;
+    }
+ 
+    .retangular-container {
+        top: 8%;
+        height: 80px;
+        width: 90%;
+    }
+ 
+    /* pag 2 media query */
+   .pag2{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 410vw;
+   }
+   .card-de-texto {
+       width: 90%; 
+       height: auto;
+       padding: 10px; 
+       margin-top: 30px;
+       margin-bottom: 20px;
+            
+   }
+ 
+   .card-de-texto h1{
+      display: flex;
+      height: 10%;
+      position: relative;
+      bottom: 5%;
+      margin-left: 25px;
+      margin-top: 20px;
+      margin-bottom: 15px;
+      font-family: "DM Serif Display", sans-serif;
+   }
+   
+   .card-de-texto ul{
+      margin-left: 5px;
+   
+   }
+   
+   .card-de-texto ul li,a{
+      margin-bottom: 20px;
+      font-family: "Roboto",sans-serif;
+      list-style: none;
+      width: 75%;
+      position: relative;
+      top: 5%;
+   } 
+ 
+ .container-container{
+    height: auto;
+    padding-top: 100%; 
+    margin-bottom: 20px;
+    width: 100%;
+    left: -5%;
+    top: 33.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;    
+ }
+ 
+ .container-p2{    
+   background-color: transparent;
+    width: 50%;
+    height: auto;
+    padding-top: 0%; 
+    position: relative;
+    display: flex;
+     flex-direction: column;    
+ }
+ 
+ .one-card{
+    position: relative;
+    top: 0%;
+    left: 0%;
+    background-color: aqua; 
+    width: 100%;
+    height: auto; 
+    padding-top: 100%; 
+    background-image: url(/IMG/pagina2/section2/img2\ 278x724.png);
+    background-repeat: no-repeat;
+    background-size: cover;  
+ }
+ 
+ .two-card{
+    background-image: url(/IMG/pagina2/section2/quartocard.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%; 
+    height: auto;
+    padding-top: 50%; 
+    margin-bottom: 10px;
+    border: 1px solid #e0e0e0;
+    position: relative;
+    top: 81%;
+    left: 6%;
+ }
+ 
+ .one-card, .two-card {
+    margin-top: 20px; 
+    transition: margin-top 0.3s ease; 
+ }
+ 
+ @media (max-width: 300px) {
+    .card-de-texto {
+       height: auto; 
+    }
+ 
+   
+ }
+ 
+ /* pagina 3 */
+  .pag3 {
+    padding: 10px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+     height: 400vw; 
+    }
+ 
+    #cardall {
+      width: 90%; 
+     height: auto; 
+     padding-bottom: 20px;
+     margin-bottom: 100px;
+     box-sizing: border-box; 
+    
+  }
+
+  .card-text-two h1, .card-text-tree h1, .card-text-tfour h1 {
+      margin-left: 50px;
+      margin-top: 20px;
+      margin-bottom: 50px;
+
+  }
+
+  .card-text-two ul, .card-text-tree ul, .card-text-tfour ul {
+      margin-left: 20px;
+      width:87%
+
+  }
+ 
+    .pag4{
+       padding: 10px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column; 
+       height: 400vw;
+   }
+   
+ 
+   #cardallp4 {
+      width: 90%;
+      height: auto; 
+      padding-bottom: 20px;
+      margin-bottom: 100px; 
+      margin-top: 10px;
+      box-sizing: border-box; 
+      }
+   
+ .card-text-five h1,.card-text-six h1{
+         margin-left: 50px;
+         margin-top: 20px;
+         margin-bottom: 50px;
+         font-family: "DM Serif Display",sans-serif;
+
+      }
+     
+      
+      .card-text-five ul,li, .card-text-six ul,li {
+         margin-left: 20px;
+         list-style: none;
+         margin-bottom: 50px;
+         font-family: "Roboto",sans-serif;
+      }
+      .card-text-five ul, .card-text-six li {
+        width: 87%;}
+ 
+    footer {
+       margin-top: 100px;
+       width: 100%; 
+       height: 55vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "DM Serif Display",sans-serif;
+    text-align: center;
+   }
+ 
+  .image-footer{
+    display: flex;
+    justify-content: center;
+   
+  }
+  
+   .image-footer img {
+    max-width: 20px; 
+    height: auto; 
+    margin-right: 20px;
+  }
+ 
+ 
+ 
+ }/*pronto gg*/
+
+ @media screen and (min-width: 301px) and (max-width: 480px) and (orientation: landscape) {
+     
+  .pag1 h1{ /* diferenca de 10 da pag anterior */
+         font-size: 25px;
+      }
+   
+      .pag1 h1 span{
+         font-size: 15px;
+      }
+      .navigation ul li a {
+         font-size: 14px;
+     }
+      h1{ /*diferenca de 2 a 3 e da pagina anterior de 6*/ 
+         font-size: 20px;
+      }
+      a{
+         font-size: 15px;
+      }
+      
+      header {
+         height: 40px;
+     }
+   
+     .navigation ul li {
+         margin: 0 20px;
+     }
+
+    .pag1{
+      height: 150vw;
+    }
+    
+    .retangular-container {
+      top: 10%;
+      height: 80px;
+      width: 90%;
+  }
+
+
+    .pag2{
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      height: 400vw;
+     }
+
+ .card-de-texto h1{
+   display: flex;
+   height: 10%;
+   position: relative;
+   bottom: 5%;
+   margin-left: 25px;
+   margin-top: 20px;
+   margin-bottom: 15px;
+   font-family: "DM Serif Display", sans-serif;
+}
+
+.card-de-texto ul{
+   margin-left: 5px;
+
+}
+
+.card-de-texto ul li,a{
+   margin-bottom: 20px;
+   font-family: "Roboto",sans-serif;
+   list-style: none;
+   width: 75%;
+   position: relative;
+   top: 5%;
+} 
+    
+
+
+    .container-container{
+      height: auto; 
+      padding-top: 90%; 
+      margin-bottom: 20px;
+      width: 100%;
+      left: 0%;
+      top: 68%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      position: relative;
+      
+   }
+   
+   .container-p2{
+      background-color: rgb(255, 255, 255);
+      width: 40%;
+      height: auto; 
+      padding-top: 0%; 
+      margin-bottom: 20px;
+      position: absolute;
+      bottom: 95%;
+      left: 5%;
+      display: flex;
+       flex-direction: row;
+      
+   }
+   
+   
+   
+   .one-card{
+      position: absolute;
+      top: 0%;
+      left: 3%;
+      background-color: aqua; 
+      width: 100%;
+      height: auto; 
+      padding-top: 100%; 
+      margin-bottom: 20px;
+      background-image: url(/IMG/pagina2/section2/img2\ 278x724.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      
+     
+   }
+   
+   .two-card{
+      background-image: url(/IMG/pagina2/section2/quartocard.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 40%; 
+      height: auto; 
+      padding-top: 40%;
+      margin-bottom: 20px;
+      border: 1px solid #e0e0e0;
+      position: absolute;
+      top: -3%;
+      left: 55%;
+   }
+   
+   .pag3 {
+      padding: 10px; 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+       height: 400vw;
+      
+      }
+   
+     
+     #cardall {
+      width: 90%; 
+     height: auto; 
+     padding-bottom: 20px;
+     margin-bottom: 100px;
+     box-sizing: border-box; 
+    
+  }
+
+  .card-text-two h1, .card-text-tree h1, .card-text-tfour h1 {
+      margin-left: 50px;
+      margin-top: 20px;
+      margin-bottom: 50px;
+
+  }
+
+  .card-text-two ul, .card-text-tree ul, .card-text-tfour ul {
+      margin-left: 20px;
+      width:87%
+
+  }
+   .pag4{
+      height: 400vw;
+   }
+
+   
+   #cardallp4 {
+      width: 90%;
+      height: auto; 
+      padding-bottom: 20px;
+      margin-bottom: 100px; 
+      margin-top: 10px;
+      box-sizing: border-box; 
+      }
+   
+ .card-text-five h1,.card-text-six h1{
+         margin-left: 50px;
+         margin-top: 20px;
+         margin-bottom: 50px;
+         font-family: "DM Serif Display",sans-serif;
+
+      }
+     
+      
+      .card-text-five ul,li, .card-text-six ul,li {
+         margin-left: 20px;
+         list-style: none;
+         margin-bottom: 50px;
+         font-family: "Roboto",sans-serif;
+      }
+      .card-text-five ul, .card-text-six li {
+        width: 87%;}
+
+      footer{
+         height: 55vw;
+      }
+ }  /*pronto gg */
+
+   @media screen and (min-width: 481px) and (max-width: 768px) {
+  .pag1 h1{ /* diferenca de 10 da pag anterior */
+         font-size: 25px;
+      }
+   
+      .pag1 h1 span{
+         font-size: 15px;
+      }
+      .navigation ul li a {
+         font-size: 16px;
+     }
+      h1{ /*diferenca de 2 a 3 e da pagina anterior de 6*/ 
+         font-size: 20px;
+      }
+      a{
+         font-size: 15px;
+      }
+      
+      header {
+         height: 40px;
+     }
+   
+     .navigation ul li {
+         margin: 0 20px;
+     }
+
+
+   header {
+      height: 60px;
+  }
+
+  .navigation ul li {
+      margin: 0 10px;
+  }
+
+  .pag1{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vw;
+  }
+
+  .pag1 h1 {
+      width: 80%; 
+
+  }
+
+  .pag1 h1 span {
+      margin-top: 55px;
+  }
+
+  .retangular-container {
+      top: 20%;
+      height: 100px;
+      width: 90%;
+  }
+
+    /* pag 2 media query */
+    .pag2{
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      height: 320vw;
+     }
+      .card-de-texto {
+         width: 90%; 
+         height: auto;
+         padding: 10px; 
+         margin-top: 70px;
+         margin-bottom: 20px; 
+        
+     }
+ .card-de-texto h1{
+   display: flex;
+   height: 10%;
+   position: relative;
+   bottom: 5%;
+   margin-left: 25px;
+   margin-top: 20px;
+   margin-bottom: 15px;
+   font-family: "DM Serif Display", sans-serif;
+}
+
+.card-de-texto ul{
+   margin-left: 5px;
+
+}
+
+.card-de-texto ul li,a{
+   margin-bottom: 20px;
+   font-family: "Roboto",sans-serif;
+   list-style: none;
+   width: 75%;
+   position: relative;
+   top: 5%;
+}   
+   
+   .container-container{   
+      height: auto; 
+      padding-top: 90%;
+      margin-bottom: 20px;
+      width: 100%;
+      left: 0%;
+      top: 12%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      position: relative;
+      
+   }
+   
+   .container-p2{
+      background-color: rgb(255, 255, 255);
+      width: 65%;
+      height: auto; 
+      padding-top: 0%; 
+      margin-bottom: 10px;
+      position: relative;
+      bottom: 120%;
+      left: 0%;
+      display: flex;
+       flex-direction: column;
+      
+   }
+  
+   
+   .one-card{
+      position: absolute;
+      top: 0%;
+      left: 3%;
+      background-color: aqua; 
+      width: 100%;
+      height: auto; 
+      padding-top: 100%; 
+      margin-bottom: 20px;
+      background-image: url(/IMG/pagina2/section2/img2\ 278x724.png);
+      background-repeat: no-repeat;
+      background-size: cover;    
+   }
+   
+   .two-card{
+      background-image: url(/IMG/pagina2/section2/quartocard.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 65%; 
+      height: auto; 
+      padding-top: 60%;
+      margin-bottom: 20px;
+      border: 1px solid #e0e0e0;
+      position: relative;
+      top: 55%;
+      left: 2%;
+   }
+   
+   .one-card, .two-card { 
+      margin-top: 20px; 
+      transition: margin-top 0.3s ease; 
+   }
+
+   .pag3 {
+      padding: 10px; 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+       height: 200vw;
+       
+      }
+
+  
+        #cardall {
+      width: 90%; 
+     height: auto; 
+     padding-bottom: 20px;
+     margin-bottom: 100px;
+     box-sizing: border-box; 
+    
+  }
+
+  .card-text-two h1, .card-text-tree h1, .card-text-tfour h1 {
+      margin-left: 50px;
+      margin-top: 20px;
+      margin-bottom: 50px;
+
+  }
+
+  .card-text-two ul, .card-text-tree ul, .card-text-tfour ul {
+      margin-left: 20px;
+      width:90%
+
+  }
+   
+      .pag4{
+   
+         padding: 10px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-direction: column; 
+         height: 250vw;
+   
+        
+     }
+     
+     
+      #cardallp4 {
+      width: 90%;
+      height: auto; 
+      padding-bottom: 20px;
+      margin-bottom: 100px; 
+      margin-top: 10px;
+      box-sizing: border-box; 
+      }
+   
+ .card-text-five h1,.card-text-six h1{
+         margin-left: 50px;
+         margin-top: 20px;
+         margin-bottom: 50px;
+         font-family: "DM Serif Display",sans-serif;
+
+      }
+     
+      
+      .card-text-five ul,li, .card-text-six ul,li {
+         margin-left: 20px;
+         list-style: none;
+         margin-bottom: 50px;
+         font-family: "Roboto",sans-serif;
+      }
+      .card-text-five ul, .card-text-six li {
+        width: 90%;}
+   
+      footer {
+         margin-top: 100px; 
+         width: 100%; 
+         height: 40vw;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: "DM Serif Display",sans-serif;
+      text-align: center;
+     }
+   
+     
+   
+    .image-footer{
+      display: flex;
+      justify-content: center;
+     
+    }
+       
+     .image-footer img {
+      max-width: 30px; 
+      height: auto; 
+      margin-right: 20px;
+    }
+         
+   }/*pronto gg */
+
+   @media screen and (min-width: 481px) and (max-width: 768px) and (orientation: landscape) {
+      .pag1 h1{ /* diferenca de 10 da pag anterior */
+         font-size: 25px;
+      }
+   
+      .pag1 h1 span{
+         font-size: 15px;
+      }
+      .navigation ul li a {
+         font-size: 16px;
+     }
+      h1{ /*diferenca de 2 a 3 e da pagina anterior de 6*/ 
+         font-size: 20px;
+      }
+      a{
+         font-size: 15px;
+      }
+      
+      header {
+         height: 40px;
+     }
+   
+     .navigation ul li {
+         margin: 0 20px;
+     }
+   
+   .retangular-container {
+      top: 20%;
+      height: 80px;
+      width: 90%;
+  }
+
+   .pag1{
+      height: 100vw;
+   }
+   .pag2{
+     display: flex;
+     justify-content: center;
+     align-items: flex-start;
+     height: 210vw;
+    }
+
+    .card-de-texto {
+      width: 90%;
+      height: auto;
+      padding: 10px; 
+      margin-top: 70px;
+      margin-bottom: 20px;
+                           
+  }
+
+  .card-de-texto h1{
+   display: flex;
+   height: 10%;
+   position: relative;
+   bottom: 5%;
+   margin-left: 25px;
+   margin-top: 20px;
+   margin-bottom: 15px;
+   font-family: "DM Serif Display", sans-serif;
+}
+
+.card-de-texto ul{
+   margin-left: 5px;
+
+}
+
+.card-de-texto ul li,a{
+   margin-bottom: 20px;
+   font-family: "Roboto",sans-serif;
+   list-style: none;
+   width: 75%;
+   position: relative;
+   top: 5%;
+}      
+
+
+   .container-container{
+   
+
+ 
+     height: auto; /* Altura automática */
+     padding-top: 90%; /* Proporção para a altura */
+     margin-bottom: 20px;
+     width: 100%;
+     left: 0%;
+     top: 70%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: row;
+     position: relative;
+     
+  }
+  
+  .container-p2{
+     background-color: rgb(255, 255, 255);
+     width: 40%;
+     height: auto; 
+     padding-top: 0%; 
+     margin-bottom: 20px;
+     position: absolute;
+     bottom: 95%;
+     left: 5%;
+     display: flex;
+      flex-direction: row;
+     
+  }
+  
+  
+  
+  .one-card{
+     position: absolute;
+     top: 0%;
+     left: 3%;
+     background-color: aqua; 
+     width: 100%;
+     height: auto; 
+     padding-top: 100%; 
+     margin-bottom: 20px;
+     background-image: url(/IMG/pagina2/section2/img2\ 278x724.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     
+    
+  }
+  
+  .two-card{
+     background-image: url(/IMG/pagina2/section2/quartocard.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     width: 40%; 
+     height: auto; 
+     padding-top: 40%;
+     margin-bottom: 20px;
+     border: 1px solid #e0e0e0;
+     position: absolute;
+     top: 2%;
+     left: 55%;
+  }
+  
+
+  .pag3 {
+     padding: 10px; 
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+      height: 250vw;
+     
+     }
+     #cardall {
+      width: 90%; 
+     height: auto; 
+     padding-bottom: 20px;
+     margin-bottom: 100px;
+     box-sizing: border-box; 
+    
+  }
+
+  .card-text-two h1, .card-text-tree h1, .card-text-tfour h1 {
+      margin-left: 50px;
+      margin-top: 20px;
+      margin-bottom: 50px;
+
+  }
+
+  .card-text-two ul, .card-text-tree ul, .card-text-tfour ul {
+      margin-left: 20px;
+      width:90%
+
+  }
+     .pag4{
+      height: 200vw;
+     }
+
+
+     #cardallp4 {
+      width: 90%;
+      height: auto; 
+      padding-bottom: 20px;
+      margin-bottom: 100px; 
+      margin-top: 10px;
+      box-sizing: border-box; 
+      }
+   
+ .card-text-five h1,.card-text-six h1{
+         margin-left: 50px;
+         margin-top: 20px;
+         margin-bottom: 50px;
+         font-family: "DM Serif Display",sans-serif;
+
+      }
+     
+      
+      .card-text-five ul,li, .card-text-six ul,li {
+         margin-left: 20px;
+         list-style: none;
+         margin-bottom: 50px;
+         font-family: "Roboto",sans-serif;
+      }
+      .card-text-five ul, .card-text-six li {
+        width: 90%;
+    
+ 
+     footer {
+      height: 37vw;
+      margin-top: 100px;
+      width: 100%; 
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   font-family: "DM Serif Display",sans-serif;
+   text-align: center;
+  }
+
+  
+
+ .image-footer{
+   display: flex;
+   justify-content: center;
+  
+ }
+ 
+ 
+  .image-footer img {
+   max-width: 30px; 
+   height: auto; 
+   margin-right: 20px; 
+ }
+   }/*pronto */
+} /*pronto gg */
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+   .pag1 h1{ /* diferenca de 10 da pag anterior */
+      font-size: 40px;
+   }
+
+   .pag1 h1 span{
+      font-size: 30px;
+   }
+   .navigation ul li a {
+      font-size: 20px;
+  }
+   h1{ /*diferenca de 2 a 3 e da pagina anterior de 6*/ 
+      font-size: 30px;
+   }
+   a{
+      font-size: 20px;
+   }
+   
+   header {
+      height: 60px;
+  }
+
+  .navigation ul li {
+      margin: 0 20px;
+  }
+   
+     .pag1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vw;
+     }
+   
+     .pag1 h1 {
+         width: 80%; 
+   
+     }
+   
+     .pag1 h1 span {
+         margin-top: 55px;
+     }
+   
+     .retangular-container {
+         top: 29%;
+         height: 130px;
+         width: 90%;
+     }
+   
+       /* pag 2 media query */
+       .pag2{
+         display: flex;
+         justify-content: center;
+         align-items: flex-start;
+         height: 230vw;
+        }
+     
+
+    .card-de-texto {
+      width: 90%; 
+      height: auto;
+      padding: 10px;
+      margin-top: 70px;
+      margin-bottom: 20px;        
+  }
+
+  .card-de-texto h1{
+   display: flex;
+   height: 10%;
+   position: relative;
+   bottom: 5%;
+   margin-left: 25px;
+   margin-top: 20px;
+   margin-bottom: 15px;
+   font-family: "DM Serif Display", sans-serif;
+}
+
+.card-de-texto ul{
+   margin-left: -15px;
+
+}
+
+.card-de-texto ul li,a{
+   margin-bottom: 20px;
+   font-family: "Roboto",sans-serif;
+   list-style: none;
+   width: 75%;
+   position: relative;
+   top: 5%;
+
+}     
+   
+   
+      .container-container{
+      
+   
+    
+         height: auto; 
+         padding-top: 90%;
+         margin-bottom: 20px;
+         width: 100%;
+         left: 0%;
+         top: 55%;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-direction: column;
+         position: relative;
+         
+      }
+      
+      .container-p2{
+         background-color: rgb(255, 255, 255);
+         width: 45%;
+         height: auto; 
+         padding-top: 0%; 
+         margin-bottom: 10px;
+         position: absolute;
+         bottom: 120%;
+         left: 25%;
+         display: flex;
+          flex-direction: column;
+         
+      }
+      
+      
+      
+      .one-card{
+         position: absolute;
+         top: 0%;
+         left: 3%;
+         background-color: aqua; 
+         width: 100%;
+         height: auto; 
+         padding-top: 100%; 
+         margin-bottom: 20px;
+         background-image: url(/IMG/pagina2/section2/img2\ 278x724.png);
+         background-repeat: no-repeat;
+         background-size: cover;
+                 
+      }
+      
+      .two-card{
+         background-image: url(/IMG/pagina2/section2/quartocard.png);
+         background-repeat: no-repeat;
+         background-size: cover;
+         width: 45%;
+         height: auto; 
+         padding-top: 40%; 
+         margin-bottom: 20px;
+         border: 1px solid #e0e0e0;
+         position: absolute;
+         top: 32%;
+         left: 26%;
+      }
+      
+      .one-card, .two-card {
+
+         margin-top: 20px; 
+         transition: margin-top 0.3s ease;
+      }
+      
+      @media (max-width: 903px) { 
+         .card-de-texto {
+            height: auto; 
+         }                               
+      }
+  
+      .pag3 {
+         padding: 10px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-direction: column;
+          height: 150vw;
+          
+         }
+         
+         #cardall {
+            width: 90%; 
+           height: auto; 
+           padding-bottom: 20px;
+           margin-bottom: 100px;
+           box-sizing: border-box; 
+          
+        }
+     
+        .card-text-two h1, .card-text-tree h1, .card-text-tfour h1 {
+            margin-left: 100px;
+            margin-top: 20px;
+            margin-bottom: 50px;
+
+        }
+     
+        .card-text-two ul, .card-text-tree ul, .card-text-tfour ul {
+            margin-left: 20px;
+            width:95%
+
+        }
+      
+         .pag4{
+      
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column; 
+            height: 150vw;               
+        }
+        
+        #cardallp4 {
+         width: 90%;
+         height: auto; 
+         padding-bottom: 20px;
+         margin-bottom: 100px; 
+         margin-top: 10px;
+         box-sizing: border-box; 
+         }
+      
+    .card-text-five h1,.card-text-six h1{
+            margin-left: 100px;
+            margin-top: 20px;
+            margin-bottom: 50px;
+            font-family: "DM Serif Display",sans-serif;
+
+         }
+        
+         
+         .card-text-five ul,li, .card-text-six ul,li {
+            margin-left: 20px;
+            list-style: none;
+            margin-bottom: 50px;
+            font-family: "Roboto",sans-serif;
+         }
+         .card-text-five ul, .card-text-six li {
+           width: 95%;
+       
+         }
+      
+         footer {
+            margin-top: 100px; 
+            width: 100%;
+            height: 25vw;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         font-family: "DM Serif Display",sans-serif;
+         text-align: center;
+        }       
+      
+       .image-footer{
+         display: flex;
+         justify-content: center;
+        
+       }       
+       
+        .image-footer img {
+         max-width: 40px; /* Definindo uma largura máxima para as imagens */
+         height: auto; /* Mantém a proporção da imagem */
+         margin-right: 20px; /* Espaçamento entre as imagens */
+       }
+      
+      
+      
+      
+    
+    }/*pronto gg */
+
+@media screen and (min-width: 769px) and (max-width:1024px) and (orientation: landscape){
+   .pag1 h1{ /* diferenca de 10 da pag anterior */
+      font-size: 40px;
+   }
+
+   .pag1 h1 span{
+      font-size: 30px;
+   }
+   .navigation ul li a {
+      font-size: 20px;
+  }
+   h1{ /*diferenca de 2 a 3 e da pagina anterior de 6*/ 
+      font-size: 30px;
+   }
+   a{
+      font-size: 20px;
+   }
+   
+   header {
+      height: 60px;
+  }
+
+  .navigation ul li {
+      margin: 0 20px;
+  }
+
+  .pag1{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vw;
+}
+
+.pag1 h1 {
+
+    width: 80%; 
+
+}
+
+.pag1 h1 span {
+    margin-top: 55px;
+
+}
+
+.retangular-container{
+   height: 100px;
+}
+
+       /* pag 2 media query */
+       .pag2{
+         display: flex;
+         justify-content: center;
+         align-items: flex-start;
+         height: 200vw;
+        }
+        .card-de-texto {
+         width: 90%; 
+         height: auto;
+         padding: 10px;
+         margin-top: 70px;
+         margin-bottom: 20px;        
+     }
+   
+     .card-de-texto h1{
+      display: flex;
+      height: 10%;
+      position: relative;
+      bottom: 5%;
+      margin-left: 25px;
+      margin-top: 20px;
+      margin-bottom: 15px;
+      font-family: "DM Serif Display", sans-serif;
+   }
+   
+   .card-de-texto ul{
+      margin-left: -15px;
+   
+   }
+   
+   .card-de-texto ul li,a{
+      margin-bottom: 20px;
+      font-family: "Roboto",sans-serif;
+      list-style: none;
+      width: 75%;
+      position: relative;
+      top: 5%;
+
+   }  
+      
+      
+   .container-container{
+      height: auto;
+      padding-top: 90%; 
+      margin-bottom: 20px;
+      width: 100%;
+      left: 0%;
+      top: 55%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      position: relative;
+      
+   }
+   
+   .container-p2{
+      background-color: rgb(255, 255, 255);
+      width: 40%;
+      height: auto;
+      padding-top: 0%; 
+      margin-bottom: 20px;
+      position: absolute;
+      bottom: 95%;
+      left: 5%;
+      display: flex;
+       flex-direction: row;
+      
+   }
+   
+   
+   
+   .one-card{
+      position: absolute;
+      top: 0%;
+      left: 3%;
+      background-color: aqua; 
+      width: 100%;
+      height: auto; 
+      padding-top: 100%; 
+      margin-bottom: 20px;
+      background-image: url(/IMG/pagina2/section2/img2\ 278x724.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+           
+   }
+   
+   .two-card{
+      background-image: url(/IMG/pagina2/section2/quartocard.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 40%; 
+      height: auto; 
+      padding-top: 40%; 
+      margin-bottom: 20px;
+      border: 1px solid #e0e0e0;
+      position: absolute;
+      top: 3%;
+      left: 54%;
+   }
+   .pag3{
+      height: 250vw;
+   }
+        
+   #cardall {
+      width: 90%; 
+     height: auto; 
+     padding-bottom: 20px;
+     margin-bottom: 100px;
+     box-sizing: border-box; 
+    
+  }
+
+  .card-text-two h1, .card-text-tree h1, .card-text-tfour h1 {
+      margin-left: 100px;
+      margin-top: 20px;
+      margin-bottom: 50px;
+
+  }
+
+  .card-text-two ul, .card-text-tree ul, .card-text-tfour ul {
+      margin-left: 20px;
+      width:95%
+
+  }
+
+   .pag4{
+      height: 100vw;
+   }
+       
+   #cardallp4 {
+      width: 90%;
+      height: auto; 
+      padding-bottom: 20px;
+      margin-bottom: 100px; 
+      margin-top: 10px;
+      box-sizing: border-box; 
+      }
+   
+ .card-text-five h1,.card-text-six h1{
+         margin-left: 100px;
+         margin-top: 20px;
+         margin-bottom: 50px;
+         font-family: "DM Serif Display",sans-serif;
+
+      }
+     
+      
+      .card-text-five ul,li, .card-text-six ul,li {
+         margin-left: 20px;
+         list-style: none;
+         margin-bottom: 50px;
+         font-family: "Roboto",sans-serif;
+      }
+      .card-text-five ul, .card-text-six li {
+        width: 95%;
+    
+      }
+
+   footer{
+      height: 25vw;
+   }
+    }/*pronto gg */
+
+      @media screen and (min-width: 1025px) and (max-width: 1200px){
+         .pag1 h1{ /* diferenca de 10 da pag anterior */
+            font-size: 60px;
+         }
+      
+         .pag1 h1 span{
+            font-size: 40px;
+         }
+         .navigation ul li a {
+            font-size: 25px;
+        }
+         h1{ /*diferenca de 2 a 3 e da pagina anterior de 6*/ 
+            font-size: 30px;
+         }
+         a{
+            font-size: 20px;
+         }
+         
+         header {
+            height: 60px;
+        }
+      
+   
+     .navigation ul li {
+         margin: 0 35px;
+     }
+   
+     .pag1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vw;
+     }
+   
+     .pag1 h1 {
+         width: 80%; 
+   
+     }
+   
+     .pag1 h1 span {
+         margin-top: 55px;
+     }
+   
+     .retangular-container {
+         top: 30%;
+         height: 140px;
+         width: 90%;
+     }
+   
+    
+     
+     
+       /* pag 2 media query */
+       .pag2{
+         display: flex;
+         justify-content: center;
+         align-items: flex-start;
+         height: 210vw;
+        }
+         .card-de-texto {
+            width: 90%; 
+            height: auto;
+            padding: 10px;
+            margin-top: 70px;
+            margin-bottom: 20px;        
+        }
+      
+        .card-de-texto h1{
+         display: flex;
+         height: 10%;
+         position: relative;
+         bottom: 5%;
+         margin-left: 25px;
+         margin-top: 20px;
+         margin-bottom: 15px;
+         font-family: "DM Serif Display", sans-serif;
+      }
+      
+      .card-de-texto ul{
+         margin-left: -15px;
+      
+      }
+      
+      .card-de-texto ul li,a{
+         margin-bottom: 20px;
+         font-family: "Roboto",sans-serif;
+         list-style: none;
+         width: 75%;
+         position: relative;
+         top: 5%;
+
+      }      
+      
+    
+   
+   .container-container{
+      height: auto; 
+      padding-top: 90%;
+      margin-bottom: 20px;
+      width: 100%;
+      left: 0%;
+      top: 48%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      position: relative;
+      
+   }
+   
+   .container-p2{
+      background-color: rgb(255, 255, 255);
+      width: 50%;
+      height: auto; 
+      padding-top: 0%; 
+      margin-bottom: 10px;
+      position: absolute;
+      bottom: 120%;
+      left: 22%;
+      display: flex;
+       flex-direction: column;
+      
+   }
+   
+   
+   
+   .one-card{
+      position: absolute;
+      top: 0%;
+      left: 3%;
+      background-color: aqua; 
+      width: 100%;
+      height: auto; 
+      padding-top: 100%; 
+      margin-bottom: 20px;
+      background-image: url(/IMG/pagina2/section2/img2\ 278x724.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      
+     
+   }
+   
+   .two-card{
+      background-image: url(/IMG/pagina2/section2/quartocard.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 50%; 
+      height: auto;
+      padding-top: 50%; 
+      margin-bottom: 20px;
+      border: 1px solid #e0e0e0;
+      position: absolute;
+      top: 45%;
+      left: 24%;
+   }
+   
+   .one-card, .two-card {
+      margin-top: 20px;
+      transition: margin-top 0.3s ease; 
+   }
+   
+   
+   
+      .pag3 {
+         padding: 10px; 
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-direction: column;
+          height: 100vw;
+          
+         }
+   
+     
+         #cardall {
+            width: 90%; 
+           height: auto; 
+           padding-bottom: 20px;
+           margin-bottom: 100px;
+           box-sizing: border-box; 
+          
+        }
+     
+        .card-text-two h1, .card-text-tree h1, .card-text-tfour h1 {
+            margin-left: 100px;
+            margin-top: 20px;
+            margin-bottom: 50px;
+
+        }
+     
+        .card-text-two ul, .card-text-tree ul, .card-text-tfour ul {
+            margin-left: 20px;
+            width:95%
+
+        }
+      
+         .pag4{
+      
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column; 
+            height: 100vw;
+      
+           
+        }
+        
+        
+        #cardallp4 {
+         width: 90%;
+         height: auto; 
+         padding-bottom: 20px;
+         margin-bottom: 100px; 
+         margin-top: 10px;
+         box-sizing: border-box; 
+         }      
+        
+       
+
+    .card-text-five h1,.card-text-six h1{
+      margin-left: 100px;
+      margin-top: 20px;
+      margin-bottom: 50px;
+      font-family: "DM Serif Display",sans-serif;
+
+   }
+  
+   
+   .card-text-five ul,li, .card-text-six ul,li {
+      margin-left: 20px;
+      list-style: none;
+      margin-bottom: 50px;
+      font-family: "Roboto",sans-serif;
+   }
+   .card-text-five ul, .card-text-six li {
+     width: 95%;
+ 
+   }
+      
+         footer {
+            margin-top: 100px; 
+            width: 100%; 
+            height: 20vw;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         font-family: "DM Serif Display",sans-serif;
+         text-align: center;
+        }
+      
+        
+      
+       .image-footer{
+         display: flex;
+         justify-content: center;
+        
+       }
+       
+       
+        .image-footer img {
+         max-width: 40px; /* Definindo uma largura máxima para as imagens */
+         height: auto; /* Mantém a proporção da imagem */
+         margin-right: 20px; /* Espaçamento entre as imagens */
+       }
+      
+      
+      
+      
+    
+
+   
+      }  /*pronto gg*/
+
+      @media screen and (min-width: 1025px) and (max-width: 1200px) and (orientation:landscape){
+         .pag1 h1{ /* diferenca de 10 da pag anterior */
+            font-size: 60px;
+         }
+      
+         .pag1 h1 span{
+            font-size: 40px;
+         }
+         .navigation ul li a {
+            font-size: 30px;
+        }
+         h1{ /*diferenca de 2 a 3 e da pagina anterior de 6*/ 
+            font-size: 30px;
+         }
+         a{
+            font-size: 20px;
+         }
+         
+         header {
+            height: 70px;
+        }
+   
+   
+      header {
+         height: 60px;
+     }
+   
+     .navigation ul li {
+         margin: 0 35px;
+     }
+   
+     .pag1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vw;
+     }
+   
+     .pag1 h1 {
+         width: 90%; 
+   
+     }
+   
+     .pag1 h1 span {
+         margin-top: 55px;
+
+     }
+   
+     .retangular-container {
+         top: 30%;
+         height: 140px;
+         width: 90%;
+     }
+   
+    
+     
+     
+       /* pag 2 media query */
+       .pag2{
+         display: flex;
+         justify-content: center;
+         align-items: flex-start;
+         height: 220vw;
+        }
+         .card-de-texto {
+            width: 90%;
+            height: auto;
+            padding: 10px; 
+            margin-top: 70px;
+            margin-bottom: 20px;
+            
+         
+        }
+      
+        .card-de-texto h1{
+         display: flex;
+         height: 10%;
+         position: relative;
+         bottom: 5%;
+         margin-left: 25px;
+         margin-top: 20px;
+         margin-bottom: 15px;
+         font-family: "DM Serif Display", sans-serif;
+
+      }
+      
+      .card-de-texto ul{
+         margin-left: -15px;
+      
+      }
+      
+      .card-de-texto ul li,a{
+         margin-bottom: 20px;
+         font-family: "Roboto",sans-serif;
+         list-style: none;
+         width: 75%;
+         position: relative;
+         top: 5%;
+
+      }      
+      
+           
+      
+   .container-container{
+   
+      height: auto; 
+      padding-top: 90%; 
+      margin-bottom: 20px;
+      width: 100%;
+      left: 0%;
+      top: 55%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      position: relative;
+      
+   }
+   
+   .container-p2{
+      background-color: rgb(255, 255, 255);
+      width: 40%;
+      height: auto; 
+      padding-top: 0%; 
+      margin-bottom: 20px;
+      position: absolute;
+      bottom: 95%;
+      left: 5%;
+      display: flex;
+       flex-direction: row;
+      
+   }
+   
+   
+   
+   .one-card{
+      position: absolute;
+      top: 0%;
+      left: 3%;
+      background-color: aqua; 
+      width: 100%;
+      height: auto; 
+      padding-top: 100%; 
+      margin-bottom: 20px;
+      background-image: url(/IMG/pagina2/section2/img2\ 278x724.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      
+     
+   }
+   
+   .two-card{
+      background-image: url(/IMG/pagina2/section2/quartocard.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 40%; 
+      height: auto; 
+      padding-top: 40%; 
+      margin-bottom: 20px;
+      border: 1px solid #e0e0e0;
+      position: absolute;
+      top: 3%;
+      left: 54%;
+   }
+   
+      .pag3 {
+         padding: 10px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-direction: column;
+          height: 100vw;
+          
+         }
+   
+     
+      
+         #cardall {
+             width: 90%; 
+            height: auto; 
+            padding-bottom: 20px;
+            margin-bottom: 100px;
+            box-sizing: border-box; 
+           
+         }
+      
+         .card-text-two h1, .card-text-tree h1, .card-text-tfour h1 {
+             margin-left: 100px;
+             margin-top: 20px;
+             margin-bottom: 50px;
+
+         }
+      
+         .card-text-two ul, .card-text-tree ul, .card-text-tfour ul {
+             margin-left: 20px;
+             width: 95%;
+
+         }
+      
+         .pag4{
+      
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column; 
+            height: 150vw;
+      
+           
+        }
+        
+        
+        #cardallp4 {
+         width: 90%; 
+         height: auto;
+         padding-bottom: 20px; 
+         margin-bottom: 100px; 
+         margin-top: 10px;
+         box-sizing: border-box; 
+         }
+        
+         
+        
+        
+         .card-text-five h1,.card-text-six h1{
+            margin-left: 100px;
+            margin-top: 20px;
+            margin-bottom: 50px;
+            font-family: "DM Serif Display",sans-serif;
+
+         }
+        
+         
+         .card-text-five ul,li, .card-text-six ul,li {
+            margin-left: 20px;
+            list-style: none;
+            margin-bottom: 50px;
+            font-family: "Roboto",sans-serif;
+         }
+         .card-text-five ul, .card-text-six li {
+           width: 95%;
+       
+         }
+      
+         footer {
+            margin-top: 100px;
+            width: 100%; 
+            height: 20vw;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         font-family: "DM Serif Display",sans-serif;
+         text-align: center;
+        }
+      
+        
+      
+       .image-footer{
+         display: flex;
+         justify-content: center;
+        
+       }
+       
+       
+        .image-footer img {
+         max-width: 50px; 
+         height: auto; 
+         margin-right: 20px; 
+       }
+      
+      
+      
+      
+    
+
+   
+      }  /*pronto gg */
+
+@media screen and (min-width: 1201px) and (max-width: 1600px){
+   .pag1 h1{ /* diferenca de 10 da pag anterior */
+      font-size: 60px;
+   }
+
+   .pag1 h1 span{
+      font-size: 40px;
+   }
+   
+   h1{ /*diferenca de 2 a 3 e da pagina anterior de 6*/ 
+      font-size: 30px;
+   }
+   a{
+      font-size: 20px;
+   }
+ 
+
+   
+     .pag1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vw;
+     }
+   
+     .pag1 h1 {
+         width: 80%; 
+     }
+   
+     .pag1 h1 span {
+         margin-top: 55px;
+
+     }
+   
+     .retangular-container {
+         top: 30%;
+         height: 200px;
+         width: 90%;
+     }
+   
+    
+     
+     
+       /* pag 2 media query */
+       .pag2{
+         display: flex;
+         justify-content: center;
+         align-items: flex-start;
+         height: 70vw;
+        }
+         .card-de-texto {
+            width: 90%; 
+            height: auto;
+            padding: 10px; 
+            margin-top: 70px;
+            margin-bottom: 20px;
+            
+            
+           
+        }
+      
+        .card-de-texto h1{
+         display: flex;
+         height: 10%;
+         position: relative;
+         bottom: 5%;
+         margin-left: 100px;
+         margin-top: 20px;
+         margin-bottom: 15px;
+         font-family: "DM Serif Display", sans-serif;
+
+      }
+      
+      .card-de-texto ul{
+         margin-left: 5px;
+      
+      }
+      
+      .card-de-texto ul li,a{
+         margin-bottom: 30px;
+         font-family: "Roboto",sans-serif;
+         list-style: none;
+         width: 70%;
+         position: relative;
+         top: 5%;
+
+      }      
+      
+      .container-container{        
+         height: auto;
+         padding-top: 30%; 
+         margin-bottom: 20px;
+         width: 100%;
+         left: 0%;
+         top: 55%;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-direction: column;
+         position: relative;
+         
+      }
+      
+      .container-p2{
+         background-color: rgb(255, 255, 255);
+         width: 24%;
+         height: auto; 
+         padding-top: 0%;
+         margin-bottom: 10px;
+         position: absolute;
+         bottom: 200%;
+         left: 74%;
+         display: flex;
+          flex-direction: column;
+         
+      }
+           
+      
+      .one-card{
+         position: absolute;
+         top: 0%;
+         left: 2%;
+         background-color: aqua; 
+         width: 100%;
+         height: auto; 
+         padding-top: 140%;
+         margin-bottom: 20px;
+         background-image: url(/IMG/pagina2/section2/img2\ 278x724.png);
+         background-repeat: no-repeat;
+         background-size: cover;
+         
+        
+      }
+      
+      .two-card{
+         background-image: url(/IMG/pagina2/section2/quartocard.png);
+         background-repeat: no-repeat;
+         background-size: cover;
+         width: 25%; 
+         height: auto; 
+         padding-top: 30%; 
+         margin-bottom: 20px;
+         border: 3px solid #e0e0e0;
+         position: absolute;
+         top: -25%;
+         left: 70%;
+      }
+   
+      .pag3 {
+         padding: 10px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-direction: column;
+          height: 100vw;
+          
+         }
+   
+     
+      
+         #cardall {
+             width: 90%; 
+            height: auto; 
+            padding-bottom: 20px; 
+            margin-bottom: 50px;
+            box-sizing: border-box; 
+           
+         }
+      
+         .card-text-two h1, .card-text-tree h1, .card-text-tfour h1 {
+             margin-left: 100px;
+             margin-top: 20px;
+             margin-bottom: 50px;
+
+         }
+      
+         .card-text-two ul, .card-text-tree ul, .card-text-tfour ul {
+             margin-left: 20px;
+             width: 95%;
+
+         }
+      
+         .pag4{
+      
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 110vw;
+      
+           
+        }
+        
+        
+        #cardallp4 {
+         width: 90%;  
+         height: auto; 
+         padding-bottom: 20px; 
+         margin-bottom: 60px; 
+         margin-top: 10px;
+         box-sizing: border-box; 
+         }
+        
+         
+        
+        
+         .card-text-five h1,.card-text-six h1{
+            margin-left: 100px;
+            margin-top: 20px;
+            margin-bottom: 50px;
+            font-family: "DM Serif Display",sans-serif;     
+           
+        
+         }
+        
+         
+         .card-text-five ul,li, .card-text-six ul,li {
+            margin-left: 20px;
+            list-style: none;
+            margin-bottom: 50px;
+            font-family: "Roboto",sans-serif;
+            
+           
+        
+         }
+
+         .card-text-five ul, .card-text-six ul {
+            width: 95%;
+         }
+      
+         footer {
+            margin-top: 100px; 
+            width: 100%;
+            height: 15vw; 
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         font-family: "DM Serif Display",sans-serif;
+         text-align: center;
+        }
+      
+        
+      
+       .image-footer{
+         display: flex;
+         justify-content: center;
+        
+       }
+       
+       
+        .image-footer img {
+         max-width: 60px; 
+         height: auto; 
+         margin-right: 20px; 
+       }
+      
+      
+      
+      
+    
+
+   
+} /*pronto gg*/
+
+@media screen and (min-width: 1201px) and (max-width: 1600px) and (orientation:landscape){
+   .pag1 h1{ /* diferenca de 10 da pag anterior */
+      font-size: 60px;
+   }
+
+   .pag1 h1 span{
+      font-size: 40px;
+   }
+   .navigation ul li a {
+      font-size: 30px;
+  }
+   h1{ /*diferenca de 2 a 3 e da pagina anterior de 6*/ 
+      font-size: 30px;
+   }
+   a{
+      font-size: 20px;
+   }
+
+  
+
+  .pag1{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vw;
+  }
+
+  .pag1 h1 {
+
+      width: 95%; 
+ position: relative;
+ top: -15%;
+  }
+
+  .pag1 h1 span {
+      margin-top: 55px;
+
+  }
+
+  .retangular-container {
+      top: 20%;
+      height: 200px;
+      width: 90%;
+  }
+
+ 
+  
+  
+    /* pag 2 media query */
+    .pag2{
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      height: 70vw;
+     }
+      .card-de-texto {
+         width: 90%; 
+         height: auto;
+         padding: 10px;
+         margin-top: 70px;
+         margin-bottom: 20px;
+         
+         
+        
+     }
+   
+     .card-de-texto h1{
+      display: flex;
+      height: 10%;
+      position: relative;
+      bottom: 5%;
+      margin-left: 100px;
+      margin-top: 20px;
+      margin-bottom: 15px;
+      font-family: "DM Serif Display", sans-serif;
+   }
+   
+   .card-de-texto ul{
+      margin-left: 5px;
+   
+   }
+   
+   .card-de-texto ul li,a{
+      margin-bottom: 30px;
+      font-family: "Roboto",sans-serif;
+      list-style: none;
+      width: 70%;
+      position: relative;
+      top: 5%;
+
+   }      
+   
+   .container-container{
+
+     
+      height: auto;
+      padding-top: 30%; 
+      margin-bottom: 20px;
+      width: 100%;
+      left: 0%;
+      top: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      position: relative;
+      
+   }
+   
+   .container-p2{
+      background-color: rgb(255, 255, 255);
+      width: 24%;
+      height: auto; 
+      padding-top: 0%; 
+      margin-bottom: 10px;
+      position: absolute;
+      bottom: 200%;
+      left: 74%;
+      display: flex;
+       flex-direction: column;
+      
+   }
+        
+   
+   .one-card{
+      position: absolute;
+      top: 0%;
+      left: 2%;
+      background-color: aqua; 
+      width: 100%;
+      height: auto; 
+      padding-top: 140%; 
+      margin-bottom: 20px;
+      background-image: url(/IMG/pagina2/section2/img2\ 278x724.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      
+     
+   }
+   
+   .two-card{
+      background-image: url(/IMG/pagina2/section2/quartocard.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 25%; 
+      height: auto;
+      padding-top: 30%; 
+      margin-bottom: 20px;
+      border: 3px solid #e0e0e0;
+      position: absolute;
+      top: -25%;
+      left: 70%;
+   }
+
+   .pag3 {
+      padding: 10px; 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+       height: 100vw;
+       
+      }
+
+  
+   
+      #cardall {
+          width: 90%; 
+         height: auto; 
+         padding-bottom: 20px; 
+         margin-bottom: 100px; 
+         box-sizing: border-box; 
+        
+      }
+   
+      .card-text-two h1, .card-text-tree h1, .card-text-tfour h1 {
+          margin-left: 200px;
+          margin-top: 20px;
+          margin-bottom: 30px;
+      }
+   
+      .card-text-two ul, .card-text-tree ul, .card-text-tfour ul {
+          margin-left: 20px;
+      }
+   
+      .pag4{
+   
+         padding: 10px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-direction: column; 
+         height: 100vw;
+   
+        
+     }
+     
+     
+     #cardallp4 {
+      width: 90%;
+      height: auto; 
+      padding-bottom: 20px; 
+      margin-bottom: 100px; 
+      margin-top: 10px;
+      box-sizing: border-box; 
+      }
+     
+      
+     
+     
+      .card-text-five h1,.card-text-six h1{
+         margin-left: 200px;
+         margin-top: 20px;
+         margin-bottom:50px;
+         font-family: "DM Serif Display",sans-serif;
+     
+      }
+     
+      
+      .card-text-five ul,li, .card-text-six ul,li {
+         margin-left: 20px;
+         list-style: none;
+         margin-bottom: 30px;
+         font-family: "Roboto",sans-serif; 
+     
+      }
+   
+      footer {
+         margin-top: 100px; 
+         width: 100%;
+         height: 19vw; 
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: "DM Serif Display",sans-serif;
+      text-align: center;
+     }
+   
+     
+   
+    .image-footer{
+      display: flex;
+      justify-content: center;
+     
+    }
+    
+    
+     .image-footer img {
+      max-width: 60px; /* Definindo uma largura máxima para as imagens */
+      height: auto; /* Mantém a proporção da imagem */
+      margin-right: 20px; /* Espaçamento entre as imagens */
+    }
+   
+   
+   
+   
+ 
+
+
+}/*pronto gg */
+
+    @media screen and (min-width: 1601px) and (max-width: 2000px){
+      .pag1 h1{ /* diferenca de 10 da pag anterior */
+         font-size: 70px;
+      }
+   
+      .pag1 h1 span{
+         font-size: 50px;
+      }
+      .navigation ul li a {
+         font-size: 40px;
+     }
+      h1{ /*diferenca de 2 a 3 e da pagina anterior de 6*/ 
+         font-size: 40px;
+      }
+      a{
+         font-size: 30px;
+      }
+      
+      header {
+         height: 90px;
+     }
+
+  .navigation ul li {
+      margin: 0 50px;
+  }
+
+
+
+  .pag1{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+  }
+
+  .pag1 h1 {
+      width: 95%; 
+
+  }
+
+  .pag1 h1 span {
+      margin-top: 55px;
+
+  }
+
+  .retangular-container {
+      top: 29%;
+      height: 200px;
+      width: 90%;
+  }
+
+ 
+  
+  
+    /* pag 2 media query */
+    .pag2{
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      height: 100vw;
+     }
+      .card-de-texto {
+         width: 90%; /* Ajustando a largura para 90% */
+         height: auto;
+         padding: 10px; /* Reduzindo o padding */
+         margin-top: 70px;
+         margin-bottom: 20px;
+         
+         
+        
+     }
+   
+     .card-de-texto h1{
+      display: flex;
+      height: 10%;
+      position: relative;
+      bottom: 5%;
+      margin-left: 100px;
+      margin-top: 20px;
+      margin-bottom: 50px;
+      font-family: "DM Serif Display", sans-serif;
+
+   }
+   
+   .card-de-texto ul{
+      margin-left: 5px;
+   
+   }
+   
+   .card-de-texto ul li,a{
+      margin-bottom: 50px;
+      font-family: "Roboto",sans-serif;
+      list-style: none;
+      width: 70%;
+      position: relative;
+      top: 5%;
+      font-size: 30px;
+   }      
+   
+   .container-container{
+
+     
+      height: auto; /* Altura automática */
+      padding-top: 30%; /* Proporção para a altura */
+      margin-bottom: 20px;
+      width: 100%;
+      left: 0%;
+      top: 40%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      position: relative;
+      
+   }
+   
+   .container-p2{
+      background-color: rgb(255, 255, 255);
+      width: 24%;
+      height: auto; /* Altura automática */
+      padding-top: 0%; /* Proporção para a altura */
+      margin-bottom: 10px;
+      position: absolute;
+      bottom: 200%;
+      left: 74%;
+      display: flex;
+       flex-direction: column;
+      
+   }
+        
+   
+   .one-card{
+      position: absolute;
+      top: 0%;
+      left: 2%;
+      background-color: aqua; 
+      width: 100%;
+      height: auto; /* Altura automática */
+      padding-top: 140%; /* Proporção para a altura */
+      margin-bottom: 20px;
+      background-image: url(/IMG/pagina2/section2/img2\ 278x724.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      
+     
+   }
+   
+   .two-card{
+      background-image: url(/IMG/pagina2/section2/quartocard.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 25%; /* Alterado para 100% */
+      height: auto; /* Altura automática */
+      padding-top: 30%; /* Proporção para a altura */
+      margin-bottom: 20px;
+      border: 3px solid #e0e0e0;
+      position: absolute;
+      top: -25%;
+      left: 70%;
+   }
+
+   .pag3 {
+      padding: 10px; /* Adiciona um padding para melhorar a visualização em telas pequenas */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+       height: 100vw;
+       
+      }
+
+  
+   
+      #cardall {
+          width: 90%; /* Faz a div ocupar toda a largura */
+         height: auto; /* Altura automática */
+         padding-bottom: 20px; /* Adiciona um padding interno maior */
+         margin-bottom: 100px; /* Adiciona uma margem inferior */
+         box-sizing: border-box; 
+        
+      }
+   
+      .card-text-two h1, .card-text-tree h1, .card-text-tfour h1 {
+          margin-left: 100px;
+          margin-top: 20px;
+          margin-bottom: 50px;
+
+      }
+   
+      .card-text-two ul, .card-text-tree ul, .card-text-tfour ul {
+          margin-left: 20px;
+          width: 95%;
+
+      }
+   
+      .pag4{
+   
+         padding: 10px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-direction: column; /* Empilha os elementos verticalmente */
+         height: 80vw;
+   
+        
+     }
+     
+     
+     #cardallp4 {
+      width: 90%; /* Faz a div ocupar toda a largura */
+      height: auto; /* Altura automática */
+      padding-bottom: 20px; /* Adiciona um padding interno maior */
+      margin-bottom: 100px; /* Adiciona uma margem inferior */
+      margin-top: 10px;
+      box-sizing: border-box; 
+      }
+     
+      
+     
+     
+      .card-text-five h1,.card-text-six h1{
+         margin-left: 100px;
+         margin-top: 20px;
+         margin-bottom: 50px;
+         font-family: "DM Serif Display",sans-serif;
+
+        
+     
+      }
+     
+      
+      .card-text-five ul,li, .card-text-six ul,li {
+         margin-left: 20px;
+         list-style: none;
+         margin-bottom: 50px;
+         font-family: "Roboto",sans-serif;
+        
+     
+      }
+      .card-text-five ul, .card-text-six ul {
+         width: 95%;
+      }
+   
+      footer {
+         margin-top: 100px; /* Adiciona uma margem superior para o footer */
+         width: 100%;
+         height: 20vw; 
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: "DM Serif Display",sans-serif;
+      text-align: center;
+     }
+   
+     
+   
+    .image-footer{
+      display: flex;
+      justify-content: center;
+     
+    }
+    
+    
+     .image-footer img {
+      max-width: 70px; /* Definindo uma largura máxima para as imagens */
+      height: auto; /* Mantém a proporção da imagem */
+      margin-right: 20px; /* Espaçamento entre as imagens */
+    }
+   
+   
+   
+   
+ 
+
+
+}/*pronto gg */
+
+     
+    @media screen and (min-width: 1601px) and (max-width: 2000px)and (orientation:landscape){
+      .pag1 h1{ /* diferenca de 10 da pag anterior */
+         font-size: 70px;
+      }
+   
+      .pag1 h1 span{
+         font-size: 50px;
+      }
+      .navigation ul li a {
+         font-size: 40px;
+     }
+      h1{ /*diferenca de 2 a 3 e da pagina anterior de 6*/ 
+         font-size: 40px;
+      }
+      a{
+         font-size: 30px;
+      }
+      
+      header {
+         height: 92px;
+     }
+
+  .navigation ul li {
+      margin: 0 50px;
+  }
+
+
+
+  .pag1{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vw;
+  }
+
+  .pag1 h1 {
+
+      width: 95%; /* Ajustando a largura */
+
+  }
+
+  .pag1 h1 span {
+      margin-top: 55px;
+
+  }
+
+  .retangular-container {
+      top: 25%;
+      height: 200px;
+      width: 90%;
+  }
+
+ 
+  
+  
+    /* pag 2 media query */
+    .pag2{
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      height: 100vw;
+     }
+      .card-de-texto {
+         width: 90%; /* Ajustando a largura para 90% */
+         height: auto;
+         padding: 10px; /* Reduzindo o padding */
+         margin-top: 70px;
+         margin-bottom: 20px;
+         
+         
+        
+     }
+   
+     .card-de-texto h1{
+      display: flex;
+      height: 10%;
+      position: relative;
+      bottom: 5%;
+      margin-left: 100px;
+      margin-top: 20px;
+      margin-bottom: 15px;
+      font-family: "DM Serif Display", sans-serif;
+
+   }
+   
+   .card-de-texto ul{
+      margin-left: 5px;
+   
+   }
+   
+   .card-de-texto ul li,a{
+      margin-bottom: 30px;
+      font-family: "Roboto",sans-serif;
+      list-style: none;
+      width: 70%;
+      position: relative;
+      top: 5%;
+
+   }      
+   
+   .container-container{
+
+     
+      height: auto; /* Altura automática */
+      padding-top: 30%; /* Proporção para a altura */
+      margin-bottom: 20px;
+      width: 100%;
+      left: 0%;
+      top: 35%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      position: relative;
+      
+   }
+   
+   .container-p2{
+      background-color: rgb(255, 255, 255);
+      width: 24%;
+      height: auto; /* Altura automática */
+      padding-top: 0%; /* Proporção para a altura */
+      margin-bottom: 10px;
+      position: absolute;
+      bottom: 200%;
+      left: 74%;
+      display: flex;
+       flex-direction: column;
+      
+   }
+        
+   
+   .one-card{
+      position: absolute;
+      top: 0%;
+      left: 2%;
+      background-color: aqua; 
+      width: 100%;
+      height: auto; /* Altura automática */
+      padding-top: 140%; /* Proporção para a altura */
+      margin-bottom: 20px;
+      background-image: url(/IMG/pagina2/section2/img2\ 278x724.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      
+     
+   }
+   
+   .two-card{
+      background-image: url(/IMG/pagina2/section2/quartocard.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 25%; /* Alterado para 100% */
+      height: auto; /* Altura automática */
+      padding-top: 30%; /* Proporção para a altura */
+      margin-bottom: 20px;
+      border: 3px solid #e0e0e0;
+      position: absolute;
+      top: -25%;
+      left: 70%;
+   }
+
+   .pag3 {
+      padding: 10px; /* Adiciona um padding para melhorar a visualização em telas pequenas */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+       height: 100vw;
+       
+      }
+
+  
+      #cardall {
+         width: 90%; 
+        height: auto; 
+        padding-bottom: 20px; 
+        margin-bottom: 100px; 
+        box-sizing: border-box; 
+       
+     }
+     
+   
+     .card-text-two h1, .card-text-tree h1, .card-text-tfour h1 {
+      margin-left: 100px;
+      margin-top: 20px;
+      margin-bottom: 50px;
+  }
+   
+      .card-text-two ul, .card-text-tree ul, .card-text-tfour ul {
+          margin-left: 20px;
+   
+      }
+
+      .card-text-five ul, .card-text-six ul {
+         width: 95%;
+      }
+   
+      .pag4{
+   
+         padding: 10px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-direction: column; /* Empilha os elementos verticalmente */
+         height: 100vw;
+   
+        
+     }
+     
+     
+     #cardallp4 {
+      width: 90%; /* Faz a div ocupar toda a largura */
+      height: auto; /* Altura automática */
+      padding-bottom: 20px; /* Adiciona um padding interno maior */
+      margin-bottom: 60px; /* Adiciona uma margem inferior */
+      margin-top: 10px;
+      box-sizing: border-box; 
+      }
+     
+      
+     
+     
+      .card-text-five h1,.card-text-six h1{
+         margin-left: 100px;
+         margin-top: 20px;
+         margin-bottom: 50px;
+         font-family: "DM Serif Display",sans-serif;
+
+     
+        
+     
+      }
+     
+      
+      .card-text-five ul,li, .card-text-six ul,li {
+         margin-left: 20px;
+         list-style: none;
+         margin-bottom: 30px;
+         font-family: "Roboto",sans-serif;
+
+        
+     
+      }
+
+      
+  .card-text-five ul, .card-text-six ul {
+   width: 95%;
+}
+
+   
+      footer {
+         margin-top: 100px; /* Adiciona uma margem superior para o footer */
+         width: 100%;
+         height: 16vw; 
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      font-family: "DM Serif Display",sans-serif;
+      text-align: center;
+     }
+   
+     
+   
+    .image-footer{
+      display: flex;
+      justify-content: center;
+     
+    }
+    
+    
+     .image-footer img {
+      max-width: 70px; /* Definindo uma largura máxima para as imagens */
+      height: auto; /* Mantém a proporção da imagem */
+      margin-right: 20px; /* Espaçamento entre as imagens */
+    }
+
+}/*pronto gg*/
+
+@media screen and (min-width: 2001px) and (max-width: 2500px){
+      
+   .pag1 h1{ /* diferenca de 10 da pag anterior */
+      font-size:110px;
+   }
+
+   .pag1 h1 span{
+      font-size: 80px;
+   }
+   .navigation ul li a {
+      font-size: 50px;
+  }
+   h1{ /*diferenca de 2 a 3 e da pagina anterior de 6*/ 
+      font-size: 53px;
+   }
+   a{
+      font-size: 50px;
+   }
+   
+   
+   header {
+      height: 120px;
+  }
+
+  .navigation ul li {
+      margin: 0 50px;
+  }
+
+ 
+
+  .pag1{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vw;
+  }
+
+  .pag1 h1 {
+
+      width: 95%; /* Ajustando a largura */
+
+  }
+
+  .pag1 h1 span {
+      margin-top: 55px;
+
+  }
+
+  .retangular-container {
+      top: 29%;
+      height: 250px;
+      width: 90%;
+  }
+
+  
+    /* pag 2 media query */
+    .pag2{
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      height: 100vw;
+     }
+      .card-de-texto {
+         width: 90%; /* Ajustando a largura para 90% */
+         height: auto;
+         padding: 10px; /* Reduzindo o padding */
+         margin-top: 70px;
+         margin-bottom: 20px;
+                
+        
+     }
+   
+     .card-de-texto h1{
+      display: flex;
+      height: 10%;
+      position: relative;
+      bottom: 5%;
+      margin-left: 100px;
+      margin-top: 20px;
+      margin-bottom: 25px;
+      font-family: "DM Serif Display", sans-serif;
+
+   }
+   
+   .card-de-texto ul{
+      margin-left: 5px;
+   
+   }
+   
+   .card-de-texto ul li,a{
+      margin-bottom: 30px;
+      font-family: "Roboto",sans-serif;
+      list-style: none;
+      width: 70%;
+      position: relative;
+      top: 5%;
+
+   }      
+   
+   .container-container{
+
+     
+      height: auto; /* Altura automática */
+      padding-top: 30%; /* Proporção para a altura */
+      margin-bottom: 20px;
+      width: 100%;
+      left: 0%;
+      top: 35%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      position: relative;
+      
+   }
+   
+   .container-p2{
+      background-color: rgb(255, 255, 255);
+      width: 24%;
+      height: auto; /* Altura automática */
+      padding-top: 0%; /* Proporção para a altura */
+      margin-bottom: 10px;
+      position: absolute;
+      bottom: 200%;
+      left: 74%;
+      display: flex;
+       flex-direction: column;
+      
+   }
+        
+   
+   .one-card{
+      position: absolute;
+      top: 0%;
+      left: 2%;
+      background-color: aqua; 
+      width: 100%;
+      height: auto; /* Altura automática */
+      padding-top: 140%; /* Proporção para a altura */
+      margin-bottom: 20px;
+      background-image: url(/IMG/pagina2/section2/img2\ 278x724.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      
+     
+   }
+   
+   .two-card{
+      background-image: url(/IMG/pagina2/section2/quartocard.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 25%; /* Alterado para 100% */
+      height: auto; /* Altura automática */
+      padding-top: 30%; /* Proporção para a altura */
+      margin-bottom: 20px;
+      border: 3px solid #e0e0e0;
+      position: absolute;
+      top: -25%;
+      left: 70%;
+   }
+
+   .pag3 {
+      padding: 10px; /* Adiciona um padding para melhorar a visualização em telas pequenas */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+       height: 100vw;
+       
+      }
+
+  
+   
+      #cardall {
+         width: 90%; 
+        height: auto; 
+        padding-bottom: 20px; 
+        margin-bottom: 100px; 
+        box-sizing: border-box; 
+       
+     }
+   
+      .card-text-two h1, .card-text-tree h1, .card-text-tfour h1 {
+          margin-left: 100px;
+          margin-top: 20px;
+          margin-bottom: 50px;
+
+      }
+   
+      .card-text-two ul, .card-text-tree ul, .card-text-tfour ul {
+          margin-left: 20px;
+
+      }
+   
+      .pag4{
+   
+         padding: 10px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-direction: column; /* Empilha os elementos verticalmente */
+         height: 100vw;
+   
+        
+     }
+     
+     
+     #cardallp4 {
+      width: 90%; /* Faz a div ocupar toda a largura */
+      height: auto; /* Altura automática */
+      padding-bottom: 20px; /* Adiciona um padding interno maior */
+      margin-bottom: 100px; /* Adiciona uma margem inferior */
+      margin-top: 10px;
+      box-sizing: border-box; 
+      }
+     
+      
+     
+     
+      .card-text-five h1,.card-text-six h1{
+         margin-left: 100px;
+         margin-top: 20px;
+         margin-bottom: 50px;
+         font-family: "DM Serif Display",sans-serif;
+
+     
+        
+     
+      }
+     
+      
+      .card-text-five ul,li, .card-text-six ul,li {
+         margin-left: 20px;
+         list-style: none;
+         margin-bottom: 30px;
+         font-family: "Roboto",sans-serif;
+
+        
+     
+      }
+      .card-text-five ul, .card-text-six ul {
+         width: 95%;
+      }
+   
+      footer {
+         margin-top: 100px; /* Adiciona uma margem superior para o footer */
+         width: 100%;
+         height: 19vw; 
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      font-family: "DM Serif Display",sans-serif;
+      text-align: center;
+     }
+   
+     
+   
+    .image-footer{
+      display: flex;
+      justify-content: center;
+     
+    }
+    
+    
+     .image-footer img {
+      max-width: 80px; /* Definindo uma largura máxima para as imagens */
+      height: auto; /* Mantém a proporção da imagem */
+      margin-right: 20px; /* Espaçamento entre as imagens */
+    }
+   
+   
+   
+   
+ 
+
+
+} /*pronto gg*/
+
+
+@media screen and (min-width: 2001px) and (max-width: 2500px) and (orientation:landscape){ 
+   .pag1 h1{ /* diferenca de 10 da pag anterior */
+      font-size:110px;
+   }
+
+   .pag1 h1 span{
+      font-size: 80px;
+   }
+   .navigation ul li a {
+      font-size: 50px;
+  }
+   h1{ /*diferenca de 2 a 3 e da pagina anterior de 6*/ 
+      font-size: 53px;
+   }
+   a{
+      font-size: 50px;
+   }
+
+   header {
+      height: 120px;
+  }
+
+  .navigation ul li {
+      margin: 0 50px;
+  }
+
+
+  .pag1{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vw;
+  }
+
+  .pag1 h1 {
+
+      width: 95%; /* Ajustando a largura */
+
+  }
+
+  .pag1 h1 span {
+      margin-top: 55px;
+
+  }
+
+  .retangular-container {
+      top: 29%;
+      height: 260px;
+      width: 90%;
+  }
+
+ 
+  
+  
+    /* pag 2 media query */
+    .pag2{
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      height: 100vw;
+     }
+      .card-de-texto {
+         width: 90%; /* Ajustando a largura para 90% */
+         height: auto;
+         padding: 10px; /* Reduzindo o padding */
+         margin-top: 70px;
+         margin-bottom: 20px;
+         
+         
+        
+     }
+   
+     .card-de-texto h1{
+      display: flex;
+      height: 10%;
+      position: relative;
+      bottom: 5%;
+      margin-left: 100px;
+      margin-top: 20px;
+      margin-bottom: 15px;
+      font-family: "DM Serif Display", sans-serif;
+
+   }
+   
+   .card-de-texto ul{
+      margin-left: 5px;
+   
+   }
+   
+   .card-de-texto ul li,a{
+      margin-bottom: 30px;
+      font-family: "Roboto",sans-serif;
+      list-style: none;
+      width: 70%;
+      position: relative;
+      top: 5%;
+
+   }      
+   
+   .container-container{
+
+     
+      height: auto; /* Altura automática */
+      padding-top: 30%; /* Proporção para a altura */
+      margin-bottom: 20px;
+      width: 100%;
+      left: 0%;
+      top: 35%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      position: relative;
+      
+   }
+   
+   .container-p2{
+      background-color: rgb(255, 255, 255);
+      width: 24%;
+      height: auto; /* Altura automática */
+      padding-top: 0%; /* Proporção para a altura */
+      margin-bottom: 10px;
+      position: absolute;
+      bottom: 200%;
+      left: 74%;
+      display: flex;
+       flex-direction: column;
+      
+   }
+        
+   
+   .one-card{
+      position: absolute;
+      top: 0%;
+      left: 2%;
+      background-color: aqua; 
+      width: 100%;
+      height: auto; /* Altura automática */
+      padding-top: 140%; /* Proporção para a altura */
+      margin-bottom: 20px;
+      background-image: url(/IMG/pagina2/section2/img2\ 278x724.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      
+     
+   }
+   
+   .two-card{
+      background-image: url(/IMG/pagina2/section2/quartocard.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 25%; /* Alterado para 100% */
+      height: auto; /* Altura automática */
+      padding-top: 30%; /* Proporção para a altura */
+      margin-bottom: 20px;
+      border: 3px solid #e0e0e0;
+      position: absolute;
+      top: -25%;
+      left: 70%;
+   }
+
+   .pag3 {
+      padding: 10px; /* Adiciona um padding para melhorar a visualização em telas pequenas */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+       height: 100vw;
+       
+      }
+
+  
+   
+      #cardall {
+         width: 90%; 
+        height: auto; 
+        padding-bottom: 20px; 
+        margin-bottom: 100px; 
+        box-sizing: border-box; 
+       
+     }
+  
+     .card-text-two h1, .card-text-tree h1, .card-text-tfour h1 {
+         margin-left: 100px;
+         margin-top: 20px;
+         margin-bottom: 50px;
+     }
+  
+     .card-text-two ul, .card-text-tree ul, .card-text-tfour ul {
+         margin-left: 20px;
+         width: 95%;
+        
+     }
+   
+      .pag4{
+   
+         padding: 10px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-direction: column; /* Empilha os elementos verticalmente */
+         height: 100vw;
+   
+        
+     }
+     
+     
+     #cardallp4 {
+      width: 90%; /* Faz a div ocupar toda a largura */
+      height: auto; /* Altura automática */
+      padding-bottom: 20px; /* Adiciona um padding interno maior */
+      margin-bottom: 100px; /* Adiciona uma margem inferior */
+      margin-top: 10px;
+      box-sizing: border-box; 
+      }
+     
+      
+     
+     
+      .card-text-five h1,.card-text-six h1{
+         margin-left: 100px;
+         margin-top: 20px;
+         margin-bottom: 50px;
+         font-family: "DM Serif Display",sans-serif;
+
+     
+        
+     
+      }
+     
+      
+      .card-text-five ul,li, .card-text-six ul,li {
+         margin-left: 20px;
+         list-style: none;
+         margin-bottom: 100px;
+         font-family: "Roboto",sans-serif;
+ 
+        
+     
+      }
+      .card-text-five ul, .card-text-six ul {
+         width: 95%;
+      }
+   
+      footer {
+         margin-top: 100px; /* Adiciona uma margem superior para o footer */
+         width: 100%;
+         height: 15vw; 
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      font-family: "DM Serif Display",sans-serif;
+      text-align: center;
+     }
+   
+     
+   
+    .image-footer{
+      display: flex;
+      justify-content: center;
+     
+    }
+    
+    
+     .image-footer img {
+      max-width: 80px; /* Definindo uma largura máxima para as imagens */
+      height: auto; /* Mantém a proporção da imagem */
+      margin-right: 20px; /* Espaçamento entre as imagens */
+    }
+   
+   
+   
+   
+ 
+
+
+}/*pronto gg */
+
+@media screen and (min-width: 2501px) and (max-width: 4000px){
+   .pag1 h1{ /* diferenca de 10 da pag anterior */
+      font-size:140px;
+   }
+
+   .pag1 h1 span{
+      font-size: 100px;
+   }
+   .navigation ul li a {
+      font-size: 90px;
+  }
+   h1{ /*diferenca de 2 a 3 e da pagina anterior de 6*/ 
+      font-size: 73px;
+   }
+   a{
+      font-size: 60px;
+   }
+   
+   
+   header {
+      height: 185px;
+  }
+
+  .navigation ul li {
+      margin: 0 50px;
+  }
+
+
+  .pag1{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vw;
+  }
+
+  .pag1 h1 {
+
+      width: 95%; /* Ajustando a largura */
+
+  }
+
+  .pag1 h1 span {
+      margin-top: 55px;
+
+  }
+
+  .retangular-container {
+   top: 29%;
+   height: 350px;
+   width: 90%;
+  }
+
+ 
+  
+  
+    /* pag 2 media query */
+    .pag2{
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      height: 80vw;
+     }
+      .card-de-texto {
+         width: 90%; /* Ajustando a largura para 90% */
+         height: auto;
+         padding: 10px; /* Reduzindo o padding */
+         margin-top: 70px;
+         margin-bottom: 20px;
+         
+         
+        
+     }
+   
+     .card-de-texto h1{
+      display: flex;
+      height: 10%;
+      position: relative;
+      bottom: 5%;
+      margin-left: 100px;
+      margin-top: 20px;
+      margin-bottom: 15px;
+      font-family: "DM Serif Display", sans-serif;
+  
+   }
+   
+   .card-de-texto ul{
+      margin-left: 5px;
+   
+   }
+   
+   .card-de-texto ul li,a{
+      margin-bottom: 30px;
+      font-family: "Roboto",sans-serif;
+      list-style: none;
+      width: 70%;
+      position: relative;
+      top: 5%;
+
+   }      
+   
+   .container-container{
+
+     
+      height: auto; /* Altura automática */
+      padding-top: 30%; /* Proporção para a altura */
+      margin-bottom: 20px;
+      width: 100%;
+      left: 0%;
+      top: 45%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      position: relative;
+      
+   }
+   
+   .container-p2{
+      background-color: rgb(255, 255, 255);
+      width: 29%;
+      height: auto; /* Altura automática */
+      padding-top: 0%; /* Proporção para a altura */
+      margin-bottom: 10px;
+      position: absolute;
+      bottom: 200%;
+      left: 69%;
+      display: flex;
+       flex-direction: column;
+      
+   }
+        
+   
+   .one-card{
+      position: absolute;
+      top: 0%;
+      left: 2%;
+      background-color: aqua; 
+      width: 100%;
+      height: auto; /* Altura automática */
+      padding-top: 140%; /* Proporção para a altura */
+      margin-bottom: 20px;
+      background-image: url(/IMG/pagina2/section2/img2\ 278x724.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      
+     
+   }
+   
+   .two-card{
+      background-image: url(/IMG/pagina2/section2/quartocard.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 30%; /* Alterado para 100% */
+      height: auto; /* Altura automática */
+      padding-top: 30%; /* Proporção para a altura */
+      margin-bottom: 20px;
+      border: 10px solid #e0e0e0;
+      position: absolute;
+      top: -25%;
+      left: 67%;
+   }
+
+   .pag3 {
+      padding: 10px; /* Adiciona um padding para melhorar a visualização em telas pequenas */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+       height: 100vw;
+       
+      }
+
+      #cardall {
+         width: 90%; 
+        height: auto; 
+        padding-bottom: 20px; 
+        margin-bottom: 200px; 
+        box-sizing: border-box; 
+       
+     }
+  
+     .card-text-two h1, .card-text-tree h1, .card-text-tfour h1 {
+         margin-left: 100px;
+         margin-top: 20px;
+         margin-bottom: 50px;
+     }
+  
+     .card-text-two ul, .card-text-tree ul, .card-text-tfour ul {
+         margin-left: 20px;
+width:95%;
+        
+     }
+   
+      .pag4{
+   
+         padding: 10px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-direction: column; /* Empilha os elementos verticalmente */
+         height: 100vw;
+   
+        
+     }
+     
+     
+     #cardallp4 {
+      width: 90%; /* Faz a div ocupar toda a largura */
+      height: auto; /* Altura automática */
+      padding-bottom: 20px; /* Adiciona um padding interno maior */
+      margin-bottom: 200px; /* Adiciona uma margem inferior */
+      margin-top: 10px;
+      box-sizing: border-box; 
+      }
+     
+      
+     
+     
+      .card-text-five h1,.card-text-six h1{
+         margin-left: 100px;
+         margin-top: 20px;
+         margin-bottom: 50px;
+         font-family: "DM Serif Display",sans-serif;
+   
+        
+     
+      }
+     
+      
+      .card-text-five ul,li, .card-text-six ul,li {
+         margin-left: 50px;
+         list-style: none;
+         margin-bottom: 100px;
+         font-family: "Roboto",sans-serif;
+
+        
+     
+      }
+
+      .card-text-five ul, .card-text-six ul {
+         width: 95%;
+      }
+
+   
+      footer {
+         margin-top: 100px; /* Adiciona uma margem superior para o footer */
+         width: 100%;
+         height: 15vw; 
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      font-family: "DM Serif Display",sans-serif;
+      text-align: center;
+     }
+   
+     
+   
+    .image-footer{
+      display: flex;
+      justify-content: center;
+     
+    }
+    
+    
+     .image-footer img {
+      max-width: 100px; /* Definindo uma largura máxima para as imagens */
+      height: auto; /* Mantém a proporção da imagem */
+      margin-right: 20px; /* Espaçamento entre as imagens */
+    }
+   
+   
+   
+   
+ 
+
+
+}  /*pronto gg*/
+
+@media screen and (min-width: 2501px) and (max-width: 4000px) and (orientation:landscape){
+   .pag1 h1{ /* diferenca de 10 da pag anterior */
+      font-size:140px;
+   }
+
+   .pag1 h1 span{
+      font-size: 100px;
+   }
+   .navigation ul li a {
+      font-size: 90px;
+  }
+   h1{ /*diferenca de 2 a 3 e da pagina anterior de 6*/ 
+      font-size: 73px;
+   }
+   a{
+      font-size: 60px;
+   }
+   
+   
+   header {
+      height: 185px;
+  }
+
+  .navigation ul li {
+      margin: 0 50px;
+  }
+
+
+  .pag1{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vw;
+  }
+
+  .pag1 h1 {
+
+      width: 95%; /* Ajustando a largura */
+
+  }
+
+  .pag1 h1 span {
+      margin-top: 55px;
+
+  }
+
+  .retangular-container {
+      top: 25%;
+      height: auto;
+      padding-top: 10%;
+      width: auto;
+      padding-left: 80%;
+  }
+
+ 
+  
+  
+    /* pag 2 media query */
+    .pag2{
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      height: 80vw;
+     }
+      .card-de-texto {
+         width: 90%; /* Ajustando a largura para 90% */
+         height: auto;
+         padding: 10px; /* Reduzindo o padding */
+         margin-top: 70px;
+         margin-bottom: 100px;
+         
+         
+        
+     }
+   
+     .card-de-texto h1{
+      display: flex;
+      height: 10%;
+      position: relative;
+      bottom: 5%;
+      margin-left: 100px;
+      margin-top: 20px;
+      margin-bottom: 50px;
+      font-family: "DM Serif Display", sans-serif;
+  
+   }
+   
+   .card-de-texto ul{
+      margin-left: 5px;
+   
+   }
+   
+   .card-de-texto ul li,a{
+      margin-bottom: 100px;
+      font-family: "Roboto",sans-serif;
+      list-style: none;
+      width: 70%;
+      position: relative;
+      top: 5%;
+
+   }      
+   
+   .container-container{
+
+     
+      height: auto; /* Altura automática */
+      padding-top: 30%; /* Proporção para a altura */
+      margin-bottom: 20px;
+      width: 100%;
+      left: 0%;
+      top: 45%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      position: relative;
+      
+   }
+   
+   .container-p2{
+      background-color: rgb(255, 255, 255);
+      width: 29%;
+      height: auto; /* Altura automática */
+      padding-top: 0%; /* Proporção para a altura */
+      margin-bottom: 10px;
+      position: absolute;
+      bottom: 200%;
+      left: 69%;
+      display: flex;
+       flex-direction: column;
+      
+   }
+        
+   
+   .one-card{
+      position: absolute;
+      top: 0%;
+      left: 2%;
+      background-color: aqua; 
+      width: 100%;
+      height: auto; /* Altura automática */
+      padding-top: 140%; /* Proporção para a altura */
+      margin-bottom: 20px;
+      background-image: url(/IMG/pagina2/section2/img2\ 278x724.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      
+     
+   }
+   
+   .two-card{
+      background-image: url(/IMG/pagina2/section2/quartocard.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 30%; /* Alterado para 100% */
+      height: auto; /* Altura automática */
+      padding-top: 30%; /* Proporção para a altura */
+      margin-bottom: 20px;
+      border: 10px solid #e0e0e0;
+      position: absolute;
+      top: -25%;
+      left: 67%;
+   }
+
+   .pag3 {
+      padding: 10px; /* Adiciona um padding para melhorar a visualização em telas pequenas */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+       height: 100vw;
+       
+      }
+
+  
+   
+      #cardall {
+         width: 90%; 
+        height: auto; 
+        padding-bottom: 20px; 
+        margin-bottom: 150px; 
+        box-sizing: border-box; 
+       
+     }
+  
+     .card-text-two h1, .card-text-tree h1, .card-text-tfour h1 {
+         margin-left: 100px;
+         margin-top: 20px;
+         margin-bottom: 50px;
+     }
+  
+     .card-text-two ul, .card-text-tree ul, .card-text-tfour ul {
+         margin-left: 20px;
+width:95%;
+        
+     }
+   
+      .pag4{
+   
+         padding: 10px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-direction: column; /* Empilha os elementos verticalmente */
+         height: 100vw;
+   
+        
+     }
+     
+     
+     #cardallp4 {
+      width: 90%; /* Faz a div ocupar toda a largura */
+      height: auto; /* Altura automática */
+      padding-bottom: 20px; /* Adiciona um padding interno maior */
+      margin-bottom: 250px; /* Adiciona uma margem inferior */
+      margin-top: 10px;
+      box-sizing: border-box; 
+      }
+     
+      
+     
+     
+      .card-text-five h1,.card-text-six h1{
+         margin-left: 100px;
+         margin-top: 20px;
+         margin-bottom: 50px;
+         font-family: "DM Serif Display",sans-serif;
+   
+        
+     
+      }
+     
+      
+      .card-text-five ul,li, .card-text-six ul,li {
+         margin-left: 20px;
+         list-style: none;
+         margin-bottom: 100px;
+         font-family: "Roboto",sans-serif;        
+     
+      }
+      .card-text-five ul, .card-text-six ul {
+         width: 95%;
+      }
+   
+      footer {
+         margin-top: 100px; /* Adiciona uma margem superior para o footer */
+         width: 100%;
+         height: 15vw; 
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      font-family: "DM Serif Display",sans-serif;
+      text-align: center;
+     }
+   
+     
+   
+    .image-footer{
+      display: flex;
+      justify-content: center;
+     
+    }
+    
+    
+     .image-footer img {
+      max-width: 110px; /* Definindo uma largura máxima para as imagens */
+      height: auto; /* Mantém a proporção da imagem */
+      margin-right: 20px; /* Espaçamento entre as imagens */
+      margin-top: 20px;
+    }
+   
+   
+   
+   
+ 
+
+
+} /*pronto gg*/
