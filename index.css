@@ -317,7 +317,7 @@ nav a{
 
 
 .cards-section {
-  background-color: #e28800; /* Cor de fundo da seção */
+  background-color: white; /* Cor de fundo da seção */
   min-height: 60vh;
   overflow: hidden; /* Garante que o conteúdo não exceda */
   padding-bottom: 20px; /* Adiciona um espaçamento ao final */
