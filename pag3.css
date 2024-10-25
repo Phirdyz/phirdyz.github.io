@@ -1,3 +1,32 @@
+
+@font-face {
+  font-family: 'Androgy Demo';
+  src: url('caminho-para-sua-fonte/fonte.woff') format('woff'),
+       url('/fonts/Androgy\ Demo.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Assassin$';
+  src: url('caminho-para-sua-fonte/fonte.woff') format('woff'),
+       url('/fonts/Assassin$.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Stalysta';
+  src: url('caminho-para-sua-fonte/fonte.woff') format('woff'),
+       url('/fonts/Stalysta.ttf') format('truetype');
+}
+
+
+
+
+
+
+
+
+
+
+
 nav{
     background-image: url(/IMG/HEADER/headerbackground.png);
     background-repeat: no-repeat;
@@ -36,7 +65,7 @@ nav{
 
 h1 {
   font-size: 2.5rem; /* 40px */
-  font-family: "DM Serif Display", serif;
+  font-family: 'Assassin$';
   font-weight: 400;
   font-style: normal;
   text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.9);
@@ -97,7 +126,7 @@ p {
 .section-um h1{
   font-size: 3rem;
   color: white;
-  font-family: "DM Serif Display", serif;
+  font-family: 'Assassin$';
   font-weight: 400;
   font-style: normal;
 }

@@ -1,3 +1,28 @@
+
+@font-face {
+  font-family: 'Androgy Demo';
+  src: url('caminho-para-sua-fonte/fonte.woff') format('woff'),
+       url('/fonts/Androgy\ Demo.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Assassin$';
+  src: url('caminho-para-sua-fonte/fonte.woff') format('woff'),
+       url('/fonts/Assassin$.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Stalysta';
+  src: url('caminho-para-sua-fonte/fonte.woff') format('woff'),
+       url('/fonts/Stalysta.ttf') format('truetype');
+}
+
+
+
+
+
+
+
 nav{
   background-image: url(/IMG/HEADER/headerbackground.png);
   background-repeat: no-repeat;
