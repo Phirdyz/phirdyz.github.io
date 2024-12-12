@@ -116,22 +116,22 @@ nav a{
   }
 
   .pagina2 h1{
-    font-size: 3.9rem;
+    font-size: 5.5rem;
     font-family: 'Assassin$';
   
-    font-weight: 400;
+    font-weight: 800;
     font-style: normal;
-    text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+    text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.7);
    
   }
 
   .pagina2 h1 span{
-    font-size: 3.0rem;
+    font-size: 2.0rem;
     font-family: "Archivo Black", sans-serif;
   
-    font-weight: 400;
+    font-weight: 100;
     font-style: normal;
-    text-shadow: 0px 0px 15px rgba(0, 0, 0,); 
+    text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.7); 
   }
   .pagina2 .container {
     width: 100vh;
@@ -180,6 +180,35 @@ nav a{
     text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7); /* Ajuste a sombra conforme necessário */
 }
 
+#prev-button, #next-button{
+   
+  width: 60px;
+  height: 60px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  z-index: 10;
+  align-self: center;
+ 
+}
+
+#prev-button img, #next-button img{
+  width: 100%;
+  height: 100%;
+  filter: drop-shadow(0 0 10px  rgba(0, 0, 0, 0.9));
+  filter: invert(100%);
+
+}
+#next-button{
+  position: absolute;
+  left: 95%;
+}
+#prev-button{
+  transform: rotate(180deg);
+  position: absolute;
+  right: 95%;
+
+}
 
 .section-2{
   min-height: 100vh;
@@ -207,13 +236,18 @@ nav a{
   justify-content: flex-start;
   align-items: center;
   text-align: center;
+
+  background-position: center;
+  background-size: cover;
   width: 90%;
 }
 
 .cont-img1{
   width: 50%;
   aspect-ratio: 1/2;
-  background-color: #ee4700;
+  background-image: url(/IMG/imgs_projeto/10floresponte.jpg);
+  background-position: center;
+  background-size: cover;
   margin-left: 20px;
   position: relative;
   
@@ -229,8 +263,12 @@ nav a{
  right: 10%;
 
 }
-
-
+.cont-img2 img {
+  width: 100%; /* Faz a imagem ocupar toda a largura do contêiner */
+  height: 100%; /* Faz a imagem ocupar toda a altura do contêiner */
+  object-fit: cover; /* Garante que a imagem se ajuste sem distorcer */
+  display: block; /* Remove possíveis espaçamentos extras */
+}
 .col-containertexts2{
   min-height: 100vh;
   display: flex;
@@ -307,7 +345,11 @@ nav a{
 
 .container-square p{
   font-size: 1rem;
-  word-break: break-all;
+  overflow-wrap: break-word; /* Quebra a linha quando necessário */
+  word-wrap: break-word; /* Compatibilidade com navegadores antigos */
+  word-break: normal; /* Evita cortar palavras */
+  white-space: normal; /* Permite quebras automáticas de linha */
+  
   text-align: center;
   width: 80%;
   flex-shrink: 0; /* Impede que o container encolha */
@@ -342,10 +384,17 @@ nav a{
   position: relative;
   left: 20%;
   margin-top: 30px;
+  background-image: url(/IMG/imgs_projeto/tripe_ponte.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .cont-circle2{
-  background-color: #e28800;
+  background-image: url(/IMG/imgs_projeto/drone3.JPG);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   position: relative;
 }
 
@@ -447,13 +496,18 @@ nav a{
 }
 
 .card-title,
-.card-text {
+.card-text{
   opacity: 0;
   transition: opacity 0.5s ease;
 }
 
+.container-pag4-v2 li {
+  opacity: 0;
+  text-align: start;
+}
+
 .card-body:hover .card-title,
-.card-body:hover .card-text {
+.card-body:hover .card-text, .card-body:hover .container-pag4-v2 li  {
   opacity: 1;
 }
 
@@ -823,11 +877,45 @@ margin-bottom: 6px;
     margin-bottom: 20px;
   }
 
-  .pagina2 h1{
-    font-size: 1.5rem;
+
   
+#prev-button, #next-button{
    
-  }
+  width: 0px;
+  height: 0px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  z-index: 10;
+  align-self: center;
+
+ 
+}
+
+.cntainer-text-slideo{
+
+}
+  
+.pagina2 h1{
+ 
+  font-size: 2.7rem;
+  font-family: 'Assassin$';
+
+  font-weight: 800;
+  font-style: normal;
+  text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+ 
+}
+
+.pagina2 h1 span{
+  font-size: 1.5rem;
+  font-family: "Archivo Black", sans-serif;
+
+  font-weight: 100;
+  font-style: normal;
+  text-shadow: 0px 0px 15px rgba(0, 0, 0,); 
+}
+
   .card {
     min-height: auto; /* Ajusta a altura conforme o conteúdo */
   }

@@ -220,14 +220,16 @@ p {
   
  
   .circle-p1{
-    background-color: #585858;
+   background-image: url(/IMG/imgs_projeto/8subindo.jpg);
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
   }
 
   .circle-p2{
-    background-color: #000;
+   background-image: url(/IMG/imgs_projeto/7drone.jpg);
     background-size:cover;
+    background-position: center;
     background-repeat:no-repeat;
   }
 
