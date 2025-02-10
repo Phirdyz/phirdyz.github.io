@@ -35,16 +35,16 @@ nav{
 
 .navbar-collapse {
   background-image: none !important;
-  margin-top: 0px; /* Adjust this value to your desired margin */
+  margin-top: 0px; 
   width: 100%;
 }
 .navbar {
   display: flex;
-  justify-content: space-between; /* Alinha os itens à esquerda e direita */
-  align-items: center; /* Centraliza os itens verticalmente */
-  height: 80px; /* Defina a altura do header conforme necessário */
-  background-color: rgba(0, 0, 0, 0.8); /* Cor de fundo */
-  position: relative; /* Permite que o overlay seja posicionado em relação à navbar */
+  justify-content: space-between; 
+  align-items: center; 
+  height: 80px; 
+  background-color: rgba(0, 0, 0, 0.8); 
+  position: relative; 
 }
 nav a{
   font-size: 1.5rem;
@@ -65,7 +65,7 @@ nav a{
 
 
   h1 {
-    font-size: 2.5rem; /* 40px */
+    font-size: 2.5rem; 
     font-family: 'Assassin$';
     font-weight: 400;
     font-style: normal;
@@ -73,7 +73,7 @@ nav a{
   }
   
   h2 {
-    font-size: 2rem; /* 32px */
+    font-size: 2rem; 
     font-family: "Archivo Black", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -81,23 +81,23 @@ nav a{
   }
   
   h3 {
-    font-size: 1.75rem; /* 28px */
+    font-size: 1.75rem; 
   }
   
   h4 {
-    font-size: 1.5rem; /* 24px */
+    font-size: 1.5rem; 
   }
   
   h5 {
-    font-size: 1.25rem; /* 20px */
+    font-size: 1.25rem; 
   }
   
   h6 {
-    font-size: 1rem; /* 16px */
+    font-size: 1rem;
   }
   
   p {
-    font-size: 1rem; /* 16px */
+    font-size: 1rem;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -264,10 +264,10 @@ nav a{
 
 }
 .cont-img2 img {
-  width: 100%; /* Faz a imagem ocupar toda a largura do contêiner */
-  height: 100%; /* Faz a imagem ocupar toda a altura do contêiner */
-  object-fit: cover; /* Garante que a imagem se ajuste sem distorcer */
-  display: block; /* Remove possíveis espaçamentos extras */
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover; 
+  display: block;
 }
 .col-containertexts2{
   min-height: 100vh;
@@ -330,31 +330,31 @@ nav a{
   border-radius: 1%;
   border-bottom: 15px solid #e3aa1e;
   border-left: 5px solid #e3aa1e;
-  flex-shrink: 0; /* Impede que o container encolha */
+  flex-shrink: 0;
   overflow: hidden;
-   padding: 20px; /* Ajuste conforme necessário */
+   padding: 20px; 
   margin: 0 auto;
 }
 
 .container-circle, .container-square {
-  flex-shrink: 0; /* Impede que o container encolha */
+  flex-shrink: 0;
   overflow: hidden;
-   padding: 20px; /* Ajuste conforme necessário */
+   padding: 20px; 
   margin: 0 auto;
 }
 
 .container-square p{
   font-size: 1rem;
-  overflow-wrap: break-word; /* Quebra a linha quando necessário */
-  word-wrap: break-word; /* Compatibilidade com navegadores antigos */
-  word-break: normal; /* Evita cortar palavras */
-  white-space: normal; /* Permite quebras automáticas de linha */
+  overflow-wrap: break-word; 
+  word-wrap: break-word; 
+  word-break: normal; 
+  white-space: normal;
   
   text-align: center;
   width: 80%;
-  flex-shrink: 0; /* Impede que o container encolha */
+  flex-shrink: 0;
   overflow: hidden;
-   padding: 20px; /* Ajuste conforme necessário */
+   padding: 20px; 
   margin: 0 auto;
   font-family: "Poppins", sans-serif;
     font-weight: 400;
@@ -375,7 +375,7 @@ nav a{
 .circles3{
   width: 70%;
   width: 70%;
-  aspect-ratio: 1 / 1; /* Largura igual à altura */
+  aspect-ratio: 1 / 1; 
   border-radius: 50%;
 
 }
@@ -402,10 +402,10 @@ nav a{
 
 
 .cards-section {
-  background-color: white; /* Cor de fundo da seção */
+  background-color: white; 
   min-height: 60vh;
-  overflow: hidden; /* Garante que o conteúdo não exceda */
-  padding-bottom: 20px; /* Adiciona um espaçamento ao final */
+  overflow: hidden; 
+  padding-bottom: 20px; 
 }
 
 .cards-section .container{
@@ -421,7 +421,7 @@ nav a{
 .card {
   position: relative;
   overflow: hidden;
-  height: auto; /* Remove qualquer altura fixa */
+  height: auto; 
 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   position: relative;
@@ -544,7 +544,8 @@ nav a{
 }
 
 #container-pag5 .row {
-background-image: url(/IMG/pagina1/SECTION5/backgorund-card.gif);
+  background-image: url('/IMG/pagina1/SECTION5/backgorund-card.gif'); 
+  background-attachment: scroll;
 background-size: cover;
 background-repeat: no-repeat;
 display: flex;
@@ -567,14 +568,13 @@ box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.3);
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('/IMG/pagina1/SECTION5/giffoto.PNG'); /* Caminho para o GIF de fundo */
+  background-image: url('/IMG/pagina1/SECTION5/giffoto.PNG');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  filter: brightness(55%); /* Ajuste o valor para escurecer ou clarear o fundo */
-  z-index: -1; /* Garante que o pseudo-elemento fique atrás do conteúdo */
+  filter: brightness(55%);
+  z-index: -1; 
 }
-
 
 .container-text-p5{
   position: relative;
@@ -604,8 +604,8 @@ box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.3);
   background-color: none;
 }
 .button-container {
-  text-align: center; /* Centraliza o conteúdo dentro da div */
-  margin-top: 20px; /* Espaçamento acima do botão */
+  text-align: center; 
+  margin-top: 20px;
 }
 .button-container button {
   padding: 10px 20px;
@@ -647,9 +647,9 @@ footer{
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  top: -50px; /* 50% fora do footer */
+  top: -50px; 
   background-color: transparent;
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3); /* Opcional: sombra para destacar */
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3); 
 
   z-index:999;
 }
@@ -657,11 +657,11 @@ footer{
 .video-circle {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Para garantir que o vídeo cubra todo o círculo */
+  object-fit: cover;
 }
 
 
-@media (min-width: 2000px){ /*navbar size*/
+@media (min-width: 2000px){
    
 
   .navbar{
@@ -676,21 +676,21 @@ height: 7rem;
 .pagina-5 {
   display: flex;
   flex-direction: column;
-  min-height: 70vh; /* Garante que a seção ocupe pelo menos a altura da tela */
+  min-height: 70vh;
   padding: 20px;
   position: relative;
 }
 
 #container-pag5 {
-  flex: 1; /* Permite que o container se expanda conforme necessário */
+  flex: 1;
   display: flex;
-  align-items: center; /* Centraliza o conteúdo verticalmente */
+  align-items: center;
 
 }
 
 #container-pag5 .row {
  
-    min-height: 55vh; /* Use min-height para evitar que o conteúdo seja cortado */
+    min-height: 55vh; 
     max-height: 75vh;
     max-width: 95vw;
     font-size: 4rem;
@@ -719,11 +719,11 @@ footer{
 @media (min-width: 1400px){
    
   h1 {
-      font-size: 10vw; /* Ajuste o tamanho da fonte conforme necessário */
+      font-size: 10vw;
   }
 
   p {
-      font-size: 6vw; /* Ajuste o tamanho da fonte conforme necessário */
+      font-size: 6vw; 
   }
   .navbar{
     display: flex;
@@ -776,11 +776,11 @@ margin-bottom: 6px;
 
 @media (max-width: 1399px) {
   h1 {
-      font-size: 6vw; /* Ajuste o tamanho da fonte conforme necessário */
+      font-size: 6vw; 
   }
 
   p {
-      font-size: 4vw; /* Ajuste o tamanho da fonte conforme necessário */
+      font-size: 4vw; 
   }
 
   .pagina2 .container h1{
@@ -826,32 +826,32 @@ margin-bottom: 6px;
 @media (min-width: 769px) {
   .navbar-collapse {
       display: flex;
-      justify-content: center; /* Centraliza os itens horizontalmente na versão desktop */
-      align-items: center; /* Centraliza os itens verticalmente */
-      width: auto; /* Ajuste a largura conforme necessário */
-      position: static; /* Remove o posicionamento fixo */
-      background-color: transparent; /* Remove a cor de fundo */
+      justify-content: center;
+      align-items: center; 
+      width: auto;
+      position: static;
+      background-color: transparent;
   }
 
   .navbar-nav {
       display: flex;
       justify-content: center;
-      align-items: center; /* Centraliza os itens horizontalmente */
-      margin: 0; /* Remove o espaço externo */
+      align-items: center;
+      margin: 0; 
   }
 
   .navbar-nav .nav-item {
-      margin-left: 1rem; /* Espaçamento entre os itens do menu */
-      margin-right: 1rem; /* Espaçamento entre os itens do menu */
+      margin-left: 1rem;
+      margin-right: 1rem; 
       margin-top: 30px;
   }
 
   .close-menu {
-      display: none; /* Oculta o botão de fechar na versão desktop */
+      display: none; 
   }
 }
 @media screen and (max-height: 768px) and (orientation: portrait) {
-  /* Regras de estilo para telas acima de 768px em modo portrait */
+ 
   
 }
 
@@ -866,7 +866,7 @@ margin-bottom: 6px;
     margin-top: 50px;
   }
   .section-3 {
-    min-height: 300vh; /* Aumenta a altura para evitar sobreposição ou compressão */
+    min-height: 300vh; 
   }
  .cards-section{
   min-height: 200vh;
@@ -892,10 +892,6 @@ margin-bottom: 6px;
  
 }
 
-.cntainer-text-slideo{
-
-}
-  
 .pagina2 h1{
  
   font-size: 2.7rem;
@@ -917,7 +913,7 @@ margin-bottom: 6px;
 }
 
   .card {
-    min-height: auto; /* Ajusta a altura conforme o conteúdo */
+    min-height: auto; 
   }
   .card-b1::before  {
     content: "";
@@ -973,11 +969,11 @@ margin-bottom: 6px;
   }
 
   h1 {
-      font-size: 6vw; /* Ajuste o tamanho da fonte conforme necessário */
+      font-size: 6vw; 
   }
 
   p {
-      font-size: 4vw; /* Ajuste o tamanho da fonte conforme necessário */
+      font-size: 4vw; 
   }
 
 
@@ -1017,15 +1013,15 @@ display: block;
   flex-direction: column;
   margin: 0;
   align-items: center;
-  padding-top: 20px; 
+  padding-top: 1.5rem; 
 }
 .navbar-nav .nav-item {
-  margin-bottom: 1rem;
+  margin-bottom: 0.1rem;
   text-align: center;
 }
 .nav-link {
     color: black; 
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 .navbar-toggler {
     border-color: white;
@@ -1043,7 +1039,7 @@ display: block;
   }
 
   .d-flex {
-    flex-direction: column; /* Empilha verticalmente em telas menores */
+    flex-direction: column; 
 }
 
 
@@ -1087,13 +1083,13 @@ display: block;
 
 }
 .card {
-  margin-bottom: 1rem; /* Espaçamento entre os cards */
+  margin-bottom: 1rem; 
 }
 
 .card {
   position: relative;
   overflow: hidden;
-  height: 100%; /* Remove qualquer altura fixa */
+  height: 100%;
   
 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -1141,41 +1137,41 @@ display: block;
 .pag-4::after {
   content: "";
   position: absolute;
-  left: 60%; /* Centraliza horizontalmente */
-  bottom: -10%; /* Posiciona no meio da altura da seção */
-  transform: translateX(-50%); /* Ajusta o alinhamento central */
-  width: 20vh; /* Largura do fundo verde escuro */
-  height:20vh; /* Altura do fundo verde escuro */
-  background-color: #0abb98; /* Cor verde escura */
-  border-radius: 50%; /* Borda arredondada */
-  z-index: -1; /* Coloca o fundo verde escuro atrás do conteúdo */
+  left: 60%; 
+  bottom: -10%; 
+  transform: translateX(-50%); 
+  width: 20vh;
+  height:20vh;
+  background-color: #0abb98; 
+  border-radius: 50%; 
+  z-index: -1; 
 }
 
 
 
 .card {
-  margin-bottom: 1rem; /* Espaçamento entre os cards */
+  margin-bottom: 1rem; 
 }
 
 
 .pagina-5 {
   display: flex;
   flex-direction: column;
-  min-height: 100vh; /* Garante que a seção ocupe pelo menos a altura da tela */
+  min-height: 100vh;
   padding: 20px;
   position: relative;
 }
 
 #container-pag5 {
-  flex: 1; /* Permite que o container se expanda conforme necessário */
+  flex: 1;
   display: flex;
-  align-items: center; /* Centraliza o conteúdo verticalmente */
+  align-items: center; 
 
 }
 
 #container-pag5 .row {
  
-    min-height: 50vh; /* Use min-height para evitar que o conteúdo seja cortado */
+    min-height: 50vh; 
     max-height: 70vh;
     max-width: 85vw;
     font-size: 1rem;
@@ -1193,21 +1189,78 @@ display: block;
 
 }
 
-
-
-
 }
-
 
 
 @media (max-width: 500px) {
   h1 {
-      font-size: 7vw; /* Ajuste o tamanho da fonte conforme necessário */
+      font-size: 7vw; 
+      word-break: break-word; 
+      word-wrap: break-word;
+      overflow-wrap: break-word;
   }
 
   p {
-      font-size: 5vw; /* Ajuste o tamanho da fonte conforme necessário */
+      font-size: 5vw; 
+      word-break: break-word; 
+      word-wrap: break-word;
+      overflow-wrap: break-word;
+      font-size: calc(1.5rem + 1vw); 
   }
+
+ 
+  .navbar-collapse {
+    position: fixed;
+    top: 0;
+    right: -100%; 
+    height: 100%;
+    width: 250px; 
+    background-color: rgba(255, 255, 255, 0.856); 
+    transition: right 0.3s ease;
+    z-index: 1000; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: center;
+  }
+
+
+.navbar-collapse.show {
+    right: 0;
+}
+.close-menu {
+position: absolute; 
+top: 10px;
+right: 10px; 
+font-size: 2rem;
+background: none;
+border: none;
+color: black;
+cursor: pointer;
+z-index: 1001; 
+display: block; 
+}
+.navbar-nav {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  align-items: center;
+  padding-top: 1.5rem; 
+}
+.navbar-nav .nav-item {
+  margin-bottom: 0.1rem;
+  text-align: center;
+}
+.nav-link {
+    color: black; 
+    font-size: 1.0rem;
+}
+.navbar-toggler {
+    border-color: white;
+}
+.navbar-toggler-icon {
+    background-color: white; 
+}
   html, body {
     height: 100%;
     margin: 0;
@@ -1241,7 +1294,13 @@ display: block;
 #anim-circle{
   display: none;
 }
-
+.section-2{
+  min-height: 310vh;
+}
+.section-3{
+margin-top: 100vh;
+  min-height: 310vh;
+}
 .pagina3 {
   height: auto;
 }
@@ -1274,35 +1333,32 @@ display: block;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap; /* Permite que os cards fiquem em linha em telas menores */
+  flex-wrap: wrap; 
 }
 
 .card {
-  margin-bottom: 1rem; /* Espaçamento entre os cards */
+  margin-bottom: 1rem;
 }
-
-
-
 
 
 .pagina-5 {
   display: flex;
   flex-direction: column;
-  min-height: 100vh; /* Garante que a seção ocupe pelo menos a altura da tela */
+  min-height: 100vh; 
   padding: 20px;
   position: relative;
 }
 
 #container-pag5 {
-  flex: 1; /* Permite que o container se expanda conforme necessário */
+  flex: 1; 
   display: flex;
-  align-items: center; /* Centraliza o conteúdo verticalmente */
+  align-items: center; 
   height: 100%;
 }
 
 #container-pag5 .row {
  
-    min-height: 50vh; /* Use min-height para evitar que o conteúdo seja cortado */
+    min-height: 50vh; 
     max-height: 70vh;
     max-width: 85vw;
     font-size: 0.5rem;
@@ -1319,20 +1375,101 @@ display: block;
   margin-bottom: 9px;
 
 }
+}
+
+@media (max-height:400px){
+  .navbar-collapse {
+    position: fixed;
+    top: 0;
+    right: -100%; 
+    height: 100%;
+    width: 200px; 
+    background-color: rgba(255, 255, 255, 0.856); 
+    transition: right 0.3s ease;
+    z-index: 1000; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: center;
+  }
 
 
+.navbar-collapse.show {
+    right: 0;
+}
+.close-menu {
+position: absolute; 
+top: 10px;
+right: 10px; 
+font-size: 2rem;
+background: none;
+border: none;
+color: black;
+cursor: pointer;
+z-index: 1001; 
+display: block; 
+}
+.navbar-nav {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  align-items: center;
+  padding-top: 2.0rem; 
+}
+.navbar-nav .nav-item {
+  margin-bottom: -0.9rem;
+  text-align: center;
+  
+}
+.nav-link {
+    color: black; 
+    font-size: 0.7rem;
+}
+.navbar-toggler {
+    border-color: white;
+}
+.navbar-toggler-icon {
+    background-color: white; 
+}
 }
 
 
 
 @media (max-width:350px) and (max-height:350px) {
+  h1 {
+    font-size: 0.8rem; 
+    line-height: 1.2; 
+}
 
+h1 {
+  word-break: break-word;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  font-size: calc(0.8rem + 1vw); 
+}
+
+
+
+footer p {
+  word-break: break-word; 
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  font-size: calc(1.5rem + 1vw); 
+}
+
+.navbar-nav{
+font-size: 1rem;
+}
+
+.navbar-nav li{
+  font-size: 0.8rem;
+  }
   .section-2{
     min-height: 450vh; 
   }
 
   .section-3 {
-    min-height: 450vh; /* Aumenta a altura para evitar sobreposição ou compressão */
+    min-height: 450vh; 
   }
 
   .circles3{
@@ -1346,13 +1483,13 @@ display: block;
 
   }
   .card {
-    margin-bottom: 1rem; /* Espaçamento entre os cards */
+    margin-bottom: 1rem; 
   }
 
   .card {
     position: relative;
     overflow: hidden;
-    height: auto; /* Remove qualquer altura fixa */
+    height: auto; 
     padding-bottom: 20%;
   
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -1406,21 +1543,21 @@ display: block;
   .pagina-5 {
     display: flex;
     flex-direction: column;
-    min-height: 160vh; /* Garante que a seção ocupe pelo menos a altura da tela */
+    min-height: 160vh; 
     padding: 20px;
     position: relative;
   }
   
   #container-pag5 {
-    flex: 1; /* Permite que o container se expanda conforme necessário */
+    flex: 1; 
     display: flex;
-    align-items: center; /* Centraliza o conteúdo verticalmente */
+    align-items: center; 
     height: 100%;
   }
   
   #container-pag5 .row {
    
-      min-height: 95vh; /* Use min-height para evitar que o conteúdo seja cortado */
+      min-height: 95vh; 
       max-width: 85vw;
       font-size: 0.5rem;
     }
